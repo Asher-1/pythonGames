@@ -1,0 +1,77 @@
+.. deny:: Use LETTER OPENER with CANDLESTICK
+
+    GOBLIT: It's not sharp enough.
+
+.. deny:: Use CANDLESTICK with PENTAGRAM
+
+    GOBLIT: I'm going to need more than one candle to power this thing up.
+
+.. allow:: Use LETTER OPENER with FIREPLACE
+
+    [GOBLIT moves to FIREPLACE]
+    .. craft:: LETTER OPENER -> HOT LETTER OPENER
+    GOBLIT: Great for opening letters on really cold days.
+
+.. allow:: Use HOT LETTER OPENER with CANDLESTICK
+
+    .. craft:: HOT LETTER OPENER + CANDLESTICK -> CANDLES + LETTER OPENER
+    GOBLIT: Like a hot knife through butter.
+    GOBLIT: But with wax instead of the butter.
+
+.. allow:: Use LETTER OPENER with CATAPULT
+
+    .. craft:: LETTER OPENER + CATAPULT -> DEADLY CATAPULT
+    PRINCESS AMELIA: I don't like where this is going...
+
+.. deny:: Use DEADLY CATAPULT with PRINCESS AMELIA
+
+    GOBLIT: What?! No way!
+
+.. deny:: Use DEADLY CATAPULT with *
+
+    GOBLIT: I could do some serious damage. I'd better not try.
+
+.. allow:: Use DEADLY CATAPULT with CHANDELIER
+
+    [GOBLIT moves to ENTRANCE]
+    [GOBLIT turns to face CHANDELIER]
+    GOBLIT: I hope this works.
+    .. craft:: DEADLY CATAPULT -> Y WAND
+    [GOBLIT fires catapult]
+    PRINCESS AMELIA: It's amazing to watch you work.
+
+
+.. allow:: Pick up LETTER OPENER
+
+
+.. allow:: Use Y WAND with RUBBER BAND
+
+    .. craft:: Y WAND + RUBBER BAND -> CATAPULT
+    GOBLIT: I could have fun with this.
+
+.. allow:: Put CANDLES onto PENTAGRAM
+
+    [PENTAGRAM has candles]
+
+    .. allow:: Speak to PRINCESS AMELIA
+
+        PRINCESS AMELIA: You'd better light the candles.
+
+    .. allow:: Use LETTER with FIREPLACE
+
+        [GOBLIT moves to FIREPLACE]
+        GOBLIT: Needs must, I suppose.
+        .. craft:: LETTER -> BURNING LETTER
+
+.. allow:: Take FALLEN CHANDELIER
+
+    GOBLIT: I'll just keep these.
+    .. craft:: FALLEN CHANDELIER -> CRYSTALS
+
+.. allow:: Light candles with BURNING LETTER
+
+    [PENTAGRAM is lit]
+
+.. allow:: Put CRYSTALS onto PENTAGRAM
+
+    [PENTAGRAM has crystals]

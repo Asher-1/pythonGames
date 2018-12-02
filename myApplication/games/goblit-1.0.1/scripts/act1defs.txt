@@ -1,0 +1,155 @@
+.. allow:: Look at FIREPLACE
+
+    [GOBLIT moves to FIREPLACE]
+    GOBLIT: Ooh, toasty.
+
+.. allow:: Look at CHANDELIER
+
+    GOBLIT: Are those electric lightbulbs?
+
+.. allow:: Look at CANDLESTICK
+
+    GOBLIT: Why do we need that when we have electric lighting?
+
+.. allow:: Look at PAINTING
+
+    [GOBLIT moves to UP STAGE RIGHT]
+    [GOBLIT turns to face PAINTING]
+    GOBLIT: That looks like...
+    WIZARD TOX: It's me, sitting on a dragon.
+
+    .. allow:: Look at PAINTING
+
+        GOBLIT: It's Wizard Tox, sitting on a dragon. Obvs.
+
+.. allow:: Look at KETTLE
+
+    [GOBLIT moves to FIREPLACE]
+    GOBLIT: Looks hot. Someone must have wanted a cup of tea.
+
+    .. deny:: Pick up KETTLE
+
+        GOBLIT: It's really hot! I'll just leave it there for now.
+
+.. allow:: Look at YORICK
+
+    [GOBLIT turns to face YORICK]
+    GOBLIT: Hello up there!
+    [pause]
+    GOBLIT: He's not talkative.
+
+.. allow:: Look at PARROT
+
+    [GOBLIT moves to NEAR PARROT]
+    GOBLIT: Oo's a pretty boy then?
+    GOBLIT: Remarkable bird, the Norwegian Blue. Beautiful plumage.
+    GOBLIT: Wait a second... this parrot is dead!
+    WIZARD TOX: You leave Polly alone!
+
+    .. rename:: PARROT -> EX PARROT
+
+    .. deny:: Take EX PARROT
+
+        [GOBLIT moves to NEAR PARROT]
+        WIZARD TOX: Leave my parrot alone!
+
+        .. unbind:: Take EX PARROT
+
+        .. allow:: Look at EX PARROT
+
+            GOBLIT: He's pining for the fjords.
+
+.. allow:: Look out of WINDOW
+
+    [GOBLIT looks out of window]
+    GOBLIT: I can see bits of a castle.
+    GOBLIT: That comes as no surprise, because we are in a castle.
+
+.. allow:: Pick up SOCK
+
+    GOBLIT: I don't know where that came from; we don't even have feet.
+
+.. allow:: Use SOCK with GOBLIT
+
+    GOBLIT: I don't have feet.
+    GOBLIT: This is basically useless to me.
+
+.. deny:: Use Y WAND with *
+
+    .. random::
+        GOBLIT: Doesn't seem to do anything.
+        GOBLIT: It fizzed a bit, then nothing.
+        GOBLIT: Am I holding this right?
+
+.. allow:: Use * with *
+    # This is a wildcard, when we don't know how to react.
+
+    .. random::
+
+        GOBLIT: I don't know what you want me to do.
+        GOBLIT: Seriously?
+
+.. deny:: Use * with HEAP
+
+    GOBLIT: What even is that heap?
+
+.. allow:: Use * with CHANDELIER
+
+    GOBLIT: I don't know how I'd get it up there.
+
+.. allow:: Take MUG
+
+    GOBLIT: A bit chipped, but basically clean.
+
+.. deny:: Use MUG with SOCK
+
+    GOBLIT: You picked up a mug and a sock and thought combining them would be the first puzzle?
+
+.. deny:: Use MUG with KETTLE
+
+    GOBLIT: I need some tea in it first.
+
+.. deny:: Use KETTLE with SOCK
+
+    GOBLIT: It doesn't need a tea cosy.
+
+.. deny:: Use KETTLE with LOOSE TEA
+
+    GOBLIT: It's more usual to serve tea in a cup than a puddle on the floor.
+
+.. deny:: Give MUG WITH TEA SOCK to WIZARD TOX
+
+    GOBLIT: I should not show him how I'm making his tea.
+
+.. deny:: Give * to WIZARD TOX
+
+    GOBLIT: He wouldn't want that.
+
+.. allow:: Look at Y WAND
+
+    [GOBLIT moves to BOOKCASE BACK]
+    GOBLIT: It's a strangely shaped magic wand.
+
+    .. deny:: Take Y WAND
+        GOBLIT: I was told not to touch anything.
+
+.. allow:: Read LITTLE BOOK OF SPELLS
+
+    .. random::
+        GOBLIT: "How to turn a lemon into an orange."
+        GOBLIT: "How to levitate a carpet."
+        GOBLIT: "How to grow magic beans."
+
+.. deny:: Take LETTER OPENER
+
+    [GOBLIT moves to BESIDE DESK]
+    .. random::
+        WIZARD TOX: Leave that alone!
+        WIZARD TOX: Stop touching things!
+
+.. deny:: Take CANDLESTICK
+
+    [GOBLIT moves to BESIDE DESK]
+    .. random::
+        WIZARD TOX: Leave that alone!
+        WIZARD TOX: Stop touching things!

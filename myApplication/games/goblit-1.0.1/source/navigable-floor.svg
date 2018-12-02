@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="960"
+   height="427"
+   id="svg6219"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="navigable-floor.svg"
+   inkscape:export-filename="/home/mauve/dev/goblit/data/floor.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs6221" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="401.96289"
+     inkscape:cy="208.21618"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer6"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1680"
+     inkscape:window-height="1026"
+     inkscape:window-x="1366"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata6224">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       y="0"
+       x="0"
+       id="image6321"
+       xlink:href="file:///home/mauve/dev/goblit/graphics/room.png"
+       height="427"
+       width="960"
+       style="opacity:0.75" />
+    <path
+       style="fill:#ff00ff;stroke:none"
+       d="m 135,354 46,-37 88,1 c 8.73065,2.2322 8.0047,-1.86385 13,-9 l 122.46507,0 10.67608,10.42717 118.06348,0.32838 c 0,0 23.28839,4.8008 42.38027,5.50791 13.92178,-2.16734 26.04037,1.07484 45.25484,-16.97057 L 707.77817,309 769,366 801.02259,366.0934 875,340 c 0,0 -5,20 -2,33 3,13 19,32 29,36 10,4 63,20 63,20 l -882,0 -16,-46 -102,0 0,-19 124,0 13,-10 z"
+       id="path7760"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccsscccccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Nav markers"
+     style="display:inline">
+    <g
+       id="g8066" />
+    <g
+       id="g8071">
+      <path
+         d="m 12.020815,0.43783391 c 0,2.63603889 -4.9070287,4.77297069 -10.9601549,4.77297069 -6.0531262,0 -10.9601545,-2.1369318 -10.9601545,-4.77297069 0,-2.63603891 4.9070283,-4.77297071 10.9601545,-4.77297071 6.0531262,0 10.9601549,2.1369318 10.9601549,4.77297071 z"
+         sodipodi:ry="4.7729707"
+         sodipodi:rx="10.960155"
+         sodipodi:cy="0.43783391"
+         sodipodi:cx="1.0606601"
+         id="path8069"
+         style="opacity:0.75;color:#000000;fill:none;stroke:#333333;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+    </g>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#g8071"
+       id="bookcase_back"
+       transform="translate(212.62594,324.30465)"
+       width="960"
+       height="427"
+       inkscape:label="#use8074" />
+    <use
+       height="427"
+       width="960"
+       transform="translate(174.12594,334.80465)"
+       id="bookcase_left"
+       xlink:href="#g8071"
+       y="0"
+       x="0"
+       inkscape:label="#use8076" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#g8071"
+       id="window"
+       transform="translate(359.62594,310.80465)"
+       width="960"
+       height="427"
+       inkscape:label="#use8078" />
+    <use
+       inkscape:label="#use8078"
+       height="427"
+       width="960"
+       transform="translate(877.62594,400.30465)"
+       id="fireplace"
+       xlink:href="#g8071"
+       y="0"
+       x="0" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#g8071"
+       id="desk"
+       transform="translate(721.62594,338.80465)"
+       width="960"
+       height="427"
+       inkscape:label="#use8078" />
+    <use
+       inkscape:label="#use8078"
+       height="427"
+       width="960"
+       transform="translate(465.12594,357.31937)"
+       id="centre_stage"
+       xlink:href="#g8071"
+       y="0"
+       x="0" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#g8071"
+       id="entrance"
+       transform="translate(155.12594,374.30465)"
+       width="960"
+       height="427"
+       inkscape:label="#use8078" />
+    <use
+       inkscape:label="#use8078"
+       height="427"
+       width="960"
+       transform="translate(2.1259399,372.80465)"
+       id="door"
+       xlink:href="#g8071"
+       y="0"
+       x="0" />
+    <use
+       inkscape:label="#use8078"
+       height="427"
+       width="960"
+       transform="translate(315.61122,359.56201)"
+       id="centre_stage_left"
+       xlink:href="#g8071"
+       y="0"
+       x="0" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#g8071"
+       id="centre_stage_right"
+       transform="translate(605.525,357.44069)"
+       width="960"
+       height="427"
+       inkscape:label="#use8078" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#g8071"
+       id="down_stage_left"
+       transform="translate(271.7706,397.74578)"
+       width="960"
+       height="427"
+       inkscape:label="#use8078" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#g8071"
+       id="down_stage_center"
+       transform="translate(465.12594,399.03867)"
+       width="960"
+       height="427"
+       inkscape:label="#use8078" />
+    <use
+       inkscape:label="#use8078"
+       height="427"
+       width="960"
+       transform="translate(692.81432,399.03867)"
+       id="down_stage_right"
+       xlink:href="#g8071"
+       y="0"
+       x="0" />
+    <use
+       inkscape:label="#use8078"
+       height="427"
+       width="960"
+       transform="translate(574.4123,327.0351)"
+       id="near_parrot"
+       xlink:href="#g8071"
+       y="0"
+       x="0" />
+  </g>
+</svg>

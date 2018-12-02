@@ -1,0 +1,219 @@
+Person,State,Situation,Order,Provides,Requires,Present,Text
+c,day-1,main-story,1,,,c,I tried to divide the water by who needs it but some people didn't like that approach.
+c,day-1,main-story,2,,,c,There are some in the group who feel that they are more valuable than the rest. 
+c,day-1,main-story,3,,,c,"I see us all equal. We each have our part to play. Even ""outsiders"". We were all outsiders once. We could be again."
+a,day-1,main-story,4,,,ac,Some people make themselves outsiders even when they are on the inside.
+c,day-1,main-story,5,,,ac,"$a, any luck with the last 6 sectors?"
+a,day-1,main-story,6,,,ac,Not really. I found a small group of houses. They had already been searched. I'm going back tomorrow.
+c,day-1,main-story,7,,,ac,Did they have a well? Where did they get their water from?
+a,day-1,main-story,8,,,ac,If they had one I didn't find it. 
+x,day-1,drinking,1,,,abcde,"It's now time for ""The Drinking"". Everyone in the group who has water will drink."
+a,day-3,drinking,1,,,abcde,"Time to drink again. Or not, as the case may be."
+b,day-4,drinking,1,,,abcde,It is the appointed hour.
+c,day-5,drinking,1,,,abcde,"OK, water time everybody."
+d,day-6,drinking,1,,,abcde,"Ah, my favourite time of day."
+e,day-7,drinking,1,,,abcde,Drink time.
+a,day-8,drinking,1,,,abcde,Here we are again.
+b,day-9,drinking,1,,,abcde,Time for The Drinking people.
+c,day-10,drinking,1,,,abcde,Slim pickings on the water front.
+d,day-11,drinking,1,,,abcde,Do we even have any water?
+x,day-1,drinking,2,,,abcde,Drinking recovers some health. People who don't drink will likely lose some health.
+x,day-1,drinking,3,,,abcde,Eventually people without water will die.
+b,day-2,main-story,1,,,bd,"$d, you don't look well. Are you feeling OK?"
+d,day-2,main-story,2,,,bd,"Yeah, yeah. Fit as a fiddle. Why wouldn't I be, living in this holiday resort?"
+b,day-2,main-story,3,,,bd,You look flushed. Hot. Been working out in the fields?
+d,day-2,main-story,4,,,bd,They don't plough themselves you know. You're welcome to come and help out. Or don't your delicate fingers take to outdoors work?
+b,day-2,main-story,5,,,bd,How many days food do you think we have? Looks like this batch of potatos was the bigest yet.
+d,day-2,main-story,6,,,bd,There weren't that many usable ones actually. I had to toss a bunch of them. Some insects or other have been eating at them.
+b,day-2,drinking,1,,,abcde,And now we drink
+e,day-3,main-story,1,,,ae,"I've seen you three days in a row going to the same sector, $a. You've found something."
+a,day-3,main-story,2,,,ae,"No, there's nothing there. Just some houses. Mostly cleared already."
+e,day-3,main-story,3,,,ae,So it takes you one day to search six sectors and three days to go through a few houses that have already been cleared! What gives?
+a,day-3,main-story,4,,,ae,The pump on our well sounds like it is failing. I'm looking for parts. I have to go through all the houses in detail to see if they have something. It takes time.
+e,day-3,main-story,5,,,ae,I thought they didn't have a well. Why would they have parts if they don't have a well? If you've found a well and aren't telling us about it ...
+c,day-3,main-story,6,,,aec,"Calm down, $e. $a would tell us. What's would be gained by hiding this?"
+e,day-3,main-story,7,,,aec,Just because you can't see a reason doesn't mean that it isn't there. 
+c,day-4,main-story,1,,,bc,You've been cooped up by yourself for a while. What are you working on?
+b,day-4,main-story,2,,,bc,I've been compiling some data on our group and found some interesting anomalies
+b,day-4,main-story,3,,,bc,Here take a look
+b,day-4,main-story,4,show-health-graph,,bc,
+c,day-4,main-story,5,,,bc,What do you think it means? 
+b,day-4,main-story,6,,,bc,I don't know. It's just data. I'm going to talk to $e about it.
+c,day-4,main-story,7,,,bc,Why $e? Why not just talk to $a and $d? 
+b,day-4,main-story,8,,,bc,I want an independent opinion. A second pair of eyes.
+c,day-4,main-story,9,,,bc,Are my eyes not independent enough? Or are you just looking to build support for something?
+d,day-5,main-story,1,,,da,I saw some rain clouds on the horizon yesterday. Looked like a bad one. I brought the sheep in just in case.
+a,day-5,main-story,2,,,da,Good move. We can't be too cautious. How's the food situation overall?
+d,day-5,main-story,3,,,da,Something weird is going on with our egg production
+d,day-5,main-story,4,,,da,A while ago I handed over the job of collecting eggs to $b and $c. Ever since then the egg yield has been going down. 
+d,day-5,main-story,5,show-food-graph,,da,
+d,day-5,main-story,6,,,da,"So either the chickens are not laying for then, or $b and $c suck at finding the eggs. "
+a,day-5,main-story,7,,,da,Or they could be keeping a little stash all to themselves.
+e,day-6,main-story,1,,,ae,Found any of those spare parts yet? In your secret hideaway?
+a,day-6,main-story,2,,,ae,No. But the water data and projections from our well are not looking good I'm afraid
+a,day-6,main-story,3,,,ae,We'll run out soon. But there's some further disturbing data. Our well had an influx of water some time ago.
+a,day-6,main-story,4,show-water-graph,,ae,
+e,day-6,main-story,5,,,ae,How is that disturbing? Where did the water come from? Was it rain?
+a,day-6,main-story,6,,,ae,"No, the well's too deep for that. Potentially another acquifer is flowing into it. If it's a deep one then that's a good thing. "
+e,day-6,main-story,7,,,ae,But if it is a shallow one?
+a,day-6,main-story,8,,,ae,That's not a possiblity that's worth thinking about.
+c,day-7,main-story,1,,,cd,The sunset last night was quite beautiful. I hadn't seen one like it for many months.
+d,day-7,main-story,2,,,cd,I'm glad you could enjoy it.
+c,day-7,main-story,3,,,cd,"You have to take the time to find the little things, even in situations like this."
+d,day-7,main-story,4,,,cd,I wasn't being sarcastic. I am glad you are able to do those kinds of things.
+c,day-7,main-story,5,,,cd,I know. Thanks.
+d,day-7,main-story,6,,,cd,I'm more of a sunrise kind of person.
+c,day-7,main-story,7,,,cd,How are they? The sunrises?
+d,day-7,main-story,8,,,cd,"Honestly, they're bleak. Seeing the desolation and destruction revealed each dawn is like reliving a nightmare."
+c,day-7,main-story,9,,,cd,I understand. Maybe that's why I like the sunsets. A chance to forget again as the darkness covers the land.
+b,day-7-onwards,single-commentary,1,,d-alive,b,I was watching $d in the field again this morning.
+b,day-7-onwards,single-commentary,2,,d-alive,b,He seemed short of breath and coughed a few times.
+b,day-7-onwards,single-commentary,3,,d-alive,b,He get's defensive when I ask him about it. 
+b,day-7-onwards,single-commentary,4,,"c-alive,d-alive",b,Mabye I'll ask $c to have a word. $d seems to trust her more.
+a,day-7-onwards,single-commentary,5,,,a,It rained again yesterday when I was out.
+a,day-7-onwards,single-commentary,6,,,a,I ducked into an abandoned house for cover but the roof was not very effective.
+a,day-7-onwards,single-commentary,7,,,a,I think I was safe but you can never tell. Water draining down onto the fallen masonry creates a fine mist that's hard to avoid.
+d,day-7-onwards,single-commentary,8,,,d,I feel more at home out in the fields with the animals than I do here with the people.
+d,day-7-onwards,single-commentary,9,,,d,The animals don't judge.
+d,day-7-onwards,single-commentary,10,,,d,If you feed them then they're grateful. 
+d,day-7-onwards,single-commentary,11,,,d,"With people they want to know where the food came from, what I've done with it, how much am I having."
+d,day-7-onwards,single-commentary,12,,,d,I'm doing something for you and you are putting me on trial. 
+d,day-7-onwards,single-commentary,13,,,d,If you treat me like I'm guilty then maybe you'll get what you expect.
+e,day-7-onwards,single-commentary,14,,,e,I'm going to organise some training.
+e,day-7-onwards,single-commentary,15,,,e,Teach people how to defend themselves. Ourselves.
+e,day-7-onwards,single-commentary,16,,,e,We are sitting ducks here. 
+e,day-7-onwards,single-commentary,17,,,e,Anybody who comes along could take us out in a minute. 
+e,day-7-onwards,single-commentary,18,,,e,You want to steal our food? Our water? 
+e,day-7-onwards,single-commentary,19,,,e,No! We need to be better and stronger than everyone else. There's no other way.
+c,day-7-onwards,single-commentary,20,,,c,I saw people on the road again.
+c,day-7-onwards,single-commentary,21,,,c,I was waving and shouting but they didn't see or hear me. I guess it's too far.
+c,day-7-onwards,single-commentary,22,,,c,If we just had more people in the group I know we would be stronger.
+c,day-7-onwards,single-commentary,23,,e-alive,c,I know $e disagrees but she is just looking to the short term. If we want to have any kind of life then we need to be a bigger group. 
+c,day-7-onwards,single-commentary,24,,e-alive,c,We cannot survive alone.
+a,day-7-onwards,single-commentary,25,,,a,I like exploring the different sectors. 
+a,day-7-onwards,single-commentary,26,,,a,The peace. The tranquility.
+a,day-7-onwards,single-commentary,27,,,a,"Somehow, all of ... this ... fades away."
+a,day-7-onwards,single-commentary,28,,,a,It's a comfortable place.
+e,day-7-onwards,single-commentary,29,,,e,I saw that group passing by again today.
+e,day-7-onwards,single-commentary,30,,,e,It looks like two men and a woman. 
+e,day-7-onwards,single-commentary,31,,,e,They have shopping carts loaded up with something. Looks like they are armed also. 
+e,day-7-onwards,single-commentary,32,,,e,If they ever come up here then we are going to be in trouble.
+b,day-7-onwards,single-commentary,33,,,b,It's draining trying to keep everyone alive in this place.
+b,day-7-onwards,single-commentary,34,,,b,Someone always has some complaint. Someone always needs me to help.
+b,day-7-onwards,single-commentary,35,,,b,I don't begrudge them the help. It's what I signed up for after all.
+b,day-7-onwards,single-commentary,36,,,b,It's just tiring. So very tiring.
+d,day-7-onwards,single-commentary,37,,b-alive,d,Have you seen how $b tries to control the discussions and focuses people's attention on certain things?
+d,day-7-onwards,single-commentary,38,,b-alive,d,"Like last night, I tried to talk about the egg shortage and he ""broadened"" the discussion."
+d,day-7-onwards,single-commentary,39,,b-alive,d,"Starting to talk about planting another field. Looking at ""the big picture"", and ""securing our future""."
+d,day-7-onwards,single-commentary,40,,b-alive,d,"He doesn't want us to look at the small picture, eh? The small matter of those mysterious missing eggs."
+c,day-7-onwards,single-commentary,41,,a-alive,c,It seems that sometimes $a doesn't drink even at the-drinking.
+c,day-7-onwards,single-commentary,42,,a-alive,c,"I mean, she looks like she is. She puts the cup to her mouth."
+c,day-7-onwards,single-commentary,43,,a-alive,c,But then when others are distracted she just puts it to one side.
+c,day-7-onwards,single-commentary,44,,a-alive,c,I asked her about it once and she just brushed me off. Said I was mistaken.
+b,day-7-onwards,single-commentary,45,,,b,I was coughing myself last night. I went out to the edge of the camp. 
+b,day-7-onwards,single-commentary,46,,,b,Didn't want anybody else seeing me.
+b,day-7-onwards,single-commentary,47,,,b,I think it is just a cold. 
+b,day-7-onwards,single-commentary,48,,,b,"Those still exist, right?"
+b,day-7-onwards,single-commentary,49,,,b,Sometimes it's just a cold.
+b,day-7-onwards,single-commentary,50,,,b,Sometimes.
+c,day-7-onwards,single-commentary,51,,,c,Are we really going to make it?
+c,day-7-onwards,single-commentary,52,,,c,I don't mean us. Us here. In the camp.
+c,day-7-onwards,single-commentary,53,,,c,"I mean the wider ""us"". "
+c,day-7-onwards,single-commentary,54,,,c,Humanity.
+c,day-7-onwards,single-commentary,55,,,c,Are We really going to make it?
+c,day-7-onwards,single-commentary,56,,,c,"And if we do, will we have wanted to?"
+a,day-7-onwards,single-commentary,57,,,a,I've searched all the sectors twice now. No sign of another well.
+a,day-7-onwards,single-commentary,58,,,a,The water situation is critical.
+a,day-7-onwards,single-commentary,59,,,a,I can widen my search but that means spending the night away from the camp. 
+a,day-7-onwards,single-commentary,60,,,a,I'm not sure I'm ready for that.
+a,day-7-onwards,single-commentary,61,,,a,I'm not sure I'm strong enough for that.
+e,day-7-onwards,single-commentary,62,,,e,Why don't people fight.
+e,day-7-onwards,single-commentary,63,,,e,You have to fight to the end.
+e,day-7-onwards,single-commentary,64,,,e,"Without fight, what do you have? "
+e,day-7-onwards,single-commentary,65,,,e,You can't let life win. Can't let it get the best of you.
+e,day-7-onwards,single-commentary,66,,,e,Live or die trying.
+d,day-7-onwards,single-commentary,67,,,d,Today would have been my wife's birthday. 
+d,day-7-onwards,single-commentary,68,,,d,She would have been 26. 
+d,day-7-onwards,single-commentary,69,,,d,That's too young. People shouldn't die so young.
+d,day-7-onwards,single-commentary,70,,,d,I miss her. I miss her terribly.
+d,day-7-onwards,single-commentary,71,,,d,I envy her too.
+d,day-7-onwards,single-commentary,72,,,d,And hate myself for doing so.
+x,instruction,text,1,,,,"Giver, the clock starts now. You must decide who gets water and who does not. "
+x,instruction,text,2,,,,Use all the data available to you. Study the trends. Learn of the environment. Talk to people. 
+x,instruction,text,3,,,,Trust only yourself.
+x,instruction,text,4,,,,And the data.
+x,introduction,text,1,,,,"Your group formed two months ago. You were 12, now you are 6."
+x,introduction,text,4,,,,"Your water source is a mining era well, deep and untouched. "
+x,introduction,text,5,,,,"Every 12 days the group chooses a ""Water Giver"". The Giver allocates water to the group members."
+x,introduction,text,6,,,,"You all drink together in the evening at ""The Drinking"". You must see others drink the same water. Fear of deliberate contamination is high."
+x,introduction,text,7,,,,It is your time as the Water Giver. 
+x,introduction,text,8,,,,It is unlikely that you have enough water for all six of you to survive until the next Giver is chosen.
+x,preamble,text,1,,,,"Plague has beset the world. Cracked and ruined, layed to waste by a bio-bomb launched by a rogue nation."
+x,preamble,text,2,,,,"The bomb, exploded in the high atmosphere, spreading a pathogen that leeched into all the surface water in the world."
+x,preamble,text,3,,,,"Within weeks most countries were decimated, their water supplies corrupted, their people infected."
+x,preamble,text,4,,,,The infected died within three days. Fever and coughing up blood preceeded a rapid shutdown of all bodily functions.
+x,preamble,text,5,,,,The plague passed via contact or consumption of water or human contact. 
+x,preamble,text,6,,,,"Survivors were few. Small groups formed around water wells that drew from deep underground sources, not yet contaminated by the pathogen."
+c,setup,main-story,1,,,abcde,It's your job now. I'm glad to be rid of it. Deciding on the water rations is not my forte.
+e,setup,main-story,2,,,abcde,And we're glad to be rid of you too. Your concept of a fair division seems more like favouritism than democracy.
+c,setup,main-story,3,,,abcde,To each according to their needs.
+e,setup,main-story,4,,,abcde,This is not a time for the needy. This is a time for the strong. For the survivors.
+b,setup,main-story,5,,,abcde,"OK, OK $e. You'll get your chance at the wheel. For now, let's move on. "
+b,setup,main-story,6,,,abcde,"$a, how goes the search for other sources?"
+a,setup,main-story,7,,,abcde,No leads. I've divided the surroundings into 12 sectors and searched 6 already. No sign of another well.
+e,setup,main-story,8,,,abcde,You were gone a long time yesterday. Where were you?
+a,setup,main-story,9,,,abcde,The sectors to the north. They are quite rocky. It takes a while to search.
+e,setup,main-story,10,,,abcde,But you'd tell us if you found something? You wouldn't ... keep some for yourself?
+c,setup,main-story,11,,,abcde,We are in this together. Without trust we might as well give up right now.
+e,setup,main-story,12,,,abcde,"Trust, but verify. "
+a,setup,main-story,13,,,abcde,You can come with me on the search if you don't believe me. 
+d,setup,main-story,14,,,abcde,But then who would protect us if somebody attacked us? 
+b,setup,main-story,15,,,abcde,"Don't worry $d, your sheep and cows will protect you!"
+c,setup,main-story,16,,,abcde,"We don't trust each other, we don't trust strangers? We are closing ourselves off to possibilities. If we embrace other survivors then we can grow. They bring supplies, water. They can help us."
+e,setup,main-story,17,,,abcde,They can kill us.
+a,setup,main-story,18,,,abcde,"I'm confident I'll find another source. If we have water, we have strength. We can control our destiny."
+c,setup,main-story,19,,,abcde,"Has this situation tought you nothing? Do the trees try to control the wind? We must be flexible, bend with the wind. Adapt to survive."
+a,setup,main-story,20,,,abcde,I'd rather drink than be a tree.
+d,setup,main-story,21,,,abcde,I'd rather eat.
+b,day-7-onwards,single-commentary,73,,,b,The clouds are rolling in.
+b,day-7-onwards,single-commentary,74,,,b,The rains are coming.
+b,day-7-onwards,single-commentary,75,,,b,Washing us away.
+d,day-7-onwards,single-commentary,76,,,d,When I was a kid I stole a ball from the local shop.
+d,day-7-onwards,single-commentary,77,,,d,Big red ball. I wanted it so badly.
+d,day-7-onwards,single-commentary,78,,,d,I never played with it.
+d,day-7-onwards,single-commentary,79,,,d,I regret that too.
+e,day-7-onwards,single-commentary,80,,,e,I've lost so many friends.
+e,day-7-onwards,single-commentary,81,,,e,War.
+e,day-7-onwards,single-commentary,82,,,e,Disease.
+e,day-7-onwards,single-commentary,83,,,e,Anger.
+e,day-7-onwards,single-commentary,84,,,e,These are my only friends.
+a,day-7-onwards,single-commentary,85,,,a,I found a book this morning.
+a,day-7-onwards,single-commentary,86,,,a,Ray Bradbury.
+a,day-7-onwards,single-commentary,87,,,a,Put it on the fire to keep me warm.
+a,day-7-onwards,single-commentary,88,,,a,Irony burns.
+c,day-7-onwards,single-commentary,89,,,c,I had a dream that I was back.
+c,day-7-onwards,single-commentary,90,,,c,Back before all this.
+c,day-7-onwards,single-commentary,91,,,c,So many colours.
+c,day-7-onwards,single-commentary,92,,,c,So many sounds.
+c,day-7-onwards,single-commentary,93,,,c,"Here, with just the greyness of silence to keep us company."
+c,day-7-onwards,single-commentary,94,,,c,Dreams are all we have.
+a,,drink-at-drinking,1,,,abcde,I'm grateful for this water.
+b,,drink-at-drinking,1,,,abcde,Refreshing
+c,,drink-at-drinking,1,,,abcde,Thanks
+d,,drink-at-drinking,1,,,abcde,Goes down sweet
+e,,drink-at-drinking,1,,,abcde,...
+a,,drink-at-drinking,2,,,abcde,I feel better for that.
+b,,drink-at-drinking,2,,,abcde,Just what the doctor ordered!
+c,,drink-at-drinking,2,,,abcde,I feel a bit guilty drinking at this time.
+d,,drink-at-drinking,2,,,abcde,I was looking forward to this all day.
+e,,drink-at-drinking,2,,,abcde,...
+a,,no-drink-at-drinking,1,,,abcde,I'll survive without water today
+b,,no-drink-at-drinking,1,,,abcde,I'm OK
+c,,no-drink-at-drinking,1,,,abcde,This is just a test of my strength
+d,,no-drink-at-drinking,1,,,abcde,I could really do with some water
+e,,no-drink-at-drinking,1,,,abcde,...
+a,,no-drink-at-drinking,2,,,abcde,No water again for me.
+b,,no-drink-at-drinking,2,,,abcde,Water is needed for good health but I will be OK.
+c,,no-drink-at-drinking,2,,,abcde,I am quite thirsty now.
+d,,no-drink-at-drinking,2,,,abcde,Food alone will not sustain me.
+e,,no-drink-at-drinking,2,,,abcde,...

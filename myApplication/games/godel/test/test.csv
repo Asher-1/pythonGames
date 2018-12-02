@@ -1,0 +1,11 @@
+Person,State,Situation,Order,Provides,Requires,Text,Present
+a,initial,given-water,1,done-once,,Thanks for the water,a
+a,initial,given-water,2,done-twice,done-once,You are too kind,abc
+a,initial,given-water,3,,"done-once,done-twice",Much obliged,a
+a,initial,given-water,4,,,A kindly deed,b
+a,initial,given-water,5,,,Cheers,b
+a,initial,given-water,6,,,Water is needed to sustain life,
+a,initial,given-water,7,,,Ta very much,
+a,initial,given-water,8,,,Great,
+a,initial,given-water,9,,,Love it,
+a,initial,given-water,10,,,You are a gentleman,
