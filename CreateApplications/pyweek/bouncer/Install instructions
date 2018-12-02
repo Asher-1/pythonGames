@@ -1,0 +1,7 @@
+1. Running from P3D file
+Install the panda3d runntime
+Start bouncer.p3d by double clicking it or call 'panda3d bouncer.p3d' from a terminal
+
+2. Running from source
+Install either Panda3D 1.10 or 1.9.2 (1.10 is reccomended)
+run 'python main.py' (should run on py2 and py3)

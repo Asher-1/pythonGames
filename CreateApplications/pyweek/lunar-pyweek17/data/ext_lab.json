@@ -1,0 +1,24 @@
+{
+    "info": {
+        "4,7": { "text": "The He-3 can be dangerous. The room is locked.", "snd": "error" },
+        "6,6": { "text": "From: Campbell, John\nTo: Dr Terkov\nSubject: Help\n\nHey Terky, can you share some of your personal stash? I know is just the beginning of the month but please, be nice.\n\nSee you later, I have a mission with Mr a-hole.", "score": 1 },
+        "6,9": { "text": "The screen is locked. A password is required.", "score": 1, "alt": "code", "alt_text": [
+        "Lunar Login: campbell\nPassword: ****\n\n",
+        "Access granted.\n",
+        "*Doors unlocked*\n"
+        ], "special": "unlock" }
+    },
+    "action": {
+        "2,1": { "id": 1, "type": "door", "valid": [2,2], "target": [[3,2], [3,3]] },
+        "0,5": { "id": 2, "type": "door", "valid": [1,5], "target": [[3,5], [3,6]] },
+        "4,1": { "id": 3, "type": "door", "valid": [4,2], "target": [[3,2], [3,3]] }
+    },
+    "exit": {
+        "0,2": { "target": "infirmary.json", "destination": [11,6], "face": -90 },
+        "0,3": { "target": "infirmary.json", "destination": [11,7], "face": -90 },
+        "5,0": { "target": "control.json", "destination": [5,11], "face": 180 },
+        "6,0": { "target": "control.json", "destination": [6,11], "face": 180 },
+        "11,2": { "target": "quarters.json", "destination": [0,5], "face": 90 },
+        "11,3": { "target": "quarters.json", "destination": [0,6], "face": 90 }
+    }
+}

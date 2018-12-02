@@ -1,0 +1,234 @@
+Traceback (most recent call last):
+  File "_ctypes/callbacks.c", line 295, in 'calling callback function'
+  File "pyglet\window\win32\__init__.pyc", line 849, in _wnd_proc
+  File "pyglet\window\win32\__init__.pyc", line 918, in _event_key
+  File "pyglet\window\__init__.pyc", line 1219, in dispatch_event
+  File "pyglet\event.pyc", line 340, in dispatch_event
+  File "gamelib\layer\game.pyc", line 227, in on_key_press
+  File "gamelib\data.pyc", line 50, in play
+  File "pyglet\media\__init__.pyc", line 396, in play
+  File "pyglet\media\__init__.pyc", line 794, in queue
+  File "pyglet\media\__init__.pyc", line 571, in _get_queue_source
+AttributeError: 'StaticSource' object has no attribute '_data'
+Traceback (most recent call last):
+  File "_ctypes/callbacks.c", line 295, in 'calling callback function'
+  File "pyglet\window\win32\__init__.pyc", line 849, in _wnd_proc
+  File "pyglet\window\win32\__init__.pyc", line 918, in _event_key
+  File "pyglet\window\__init__.pyc", line 1219, in dispatch_event
+  File "pyglet\event.pyc", line 340, in dispatch_event
+  File "gamelib\layer\game.pyc", line 227, in on_key_press
+  File "gamelib\data.pyc", line 50, in play
+  File "pyglet\media\__init__.pyc", line 396, in play
+  File "pyglet\media\__init__.pyc", line 794, in queue
+  File "pyglet\media\__init__.pyc", line 571, in _get_queue_source
+AttributeError: 'StaticSource' object has no attribute '_data'
+Traceback (most recent call last):
+  File "_ctypes/callbacks.c", line 295, in 'calling callback function'
+  File "pyglet\window\win32\__init__.pyc", line 849, in _wnd_proc
+  File "pyglet\window\win32\__init__.pyc", line 918, in _event_key
+  File "pyglet\window\__init__.pyc", line 1219, in dispatch_event
+  File "pyglet\event.pyc", line 340, in dispatch_event
+  File "gamelib\layer\game.pyc", line 227, in on_key_press
+  File "gamelib\data.pyc", line 50, in play
+  File "pyglet\media\__init__.pyc", line 396, in play
+  File "pyglet\media\__init__.pyc", line 794, in queue
+  File "pyglet\media\__init__.pyc", line 571, in _get_queue_source
+AttributeError: 'StaticSource' object has no attribute '_data'
+Traceback (most recent call last):
+  File "_ctypes/callbacks.c", line 295, in 'calling callback function'
+  File "pyglet\window\win32\__init__.pyc", line 849, in _wnd_proc
+  File "pyglet\window\win32\__init__.pyc", line 918, in _event_key
+  File "pyglet\window\__init__.pyc", line 1219, in dispatch_event
+  File "pyglet\event.pyc", line 340, in dispatch_event
+  File "gamelib\layer\game.pyc", line 227, in on_key_press
+  File "gamelib\data.pyc", line 50, in play
+  File "pyglet\media\__init__.pyc", line 396, in play
+  File "pyglet\media\__init__.pyc", line 794, in queue
+  File "pyglet\media\__init__.pyc", line 571, in _get_queue_source
+AttributeError: 'StaticSource' object has no attribute '_data'
+Traceback (most recent call last):
+  File "_ctypes/callbacks.c", line 295, in 'calling callback function'
+  File "pyglet\window\win32\__init__.pyc", line 849, in _wnd_proc
+  File "pyglet\window\win32\__init__.pyc", line 918, in _event_key
+  File "pyglet\window\__init__.pyc", line 1219, in dispatch_event
+  File "pyglet\event.pyc", line 340, in dispatch_event
+  File "gamelib\layer\game.pyc", line 227, in on_key_press
+  File "gamelib\data.pyc", line 50, in play
+  File "pyglet\media\__init__.pyc", line 396, in play
+  File "pyglet\media\__init__.pyc", line 794, in queue
+  File "pyglet\media\__init__.pyc", line 571, in _get_queue_source
+AttributeError: 'StaticSource' object has no attribute '_data'
+Traceback (most recent call last):
+  File "_ctypes/callbacks.c", line 295, in 'calling callback function'
+  File "pyglet\window\win32\__init__.pyc", line 849, in _wnd_proc
+  File "pyglet\window\win32\__init__.pyc", line 918, in _event_key
+  File "pyglet\window\__init__.pyc", line 1219, in dispatch_event
+  File "pyglet\event.pyc", line 340, in dispatch_event
+  File "gamelib\layer\game.pyc", line 227, in on_key_press
+  File "gamelib\data.pyc", line 50, in play
+  File "pyglet\media\__init__.pyc", line 396, in play
+  File "pyglet\media\__init__.pyc", line 794, in queue
+  File "pyglet\media\__init__.pyc", line 571, in _get_queue_source
+AttributeError: 'StaticSource' object has no attribute '_data'
+Traceback (most recent call last):
+  File "_ctypes/callbacks.c", line 295, in 'calling callback function'
+  File "pymunk\__init__.pyc", line 521, in cf
+  File "gamelib\layer\game.pyc", line 281, in on_atom_hit_electron
+  File "gamelib\data.pyc", line 50, in play
+  File "pyglet\media\__init__.pyc", line 396, in play
+  File "pyglet\media\__init__.pyc", line 794, in queue
+  File "pyglet\media\__init__.pyc", line 571, in _get_queue_source
+AttributeError: 'StaticSource' object has no attribute '_data'
+Traceback (most recent call last):
+  File "_ctypes/callbacks.c", line 295, in 'calling callback function'
+  File "pyglet\window\win32\__init__.pyc", line 849, in _wnd_proc
+  File "pyglet\window\win32\__init__.pyc", line 918, in _event_key
+  File "pyglet\window\__init__.pyc", line 1219, in dispatch_event
+  File "pyglet\event.pyc", line 340, in dispatch_event
+  File "gamelib\layer\game.pyc", line 227, in on_key_press
+  File "gamelib\data.pyc", line 50, in play
+  File "pyglet\media\__init__.pyc", line 396, in play
+  File "pyglet\media\__init__.pyc", line 794, in queue
+  File "pyglet\media\__init__.pyc", line 571, in _get_queue_source
+AttributeError: 'StaticSource' object has no attribute '_data'
+Traceback (most recent call last):
+  File "_ctypes/callbacks.c", line 295, in 'calling callback function'
+  File "pymunk\__init__.pyc", line 521, in cf
+  File "gamelib\layer\game.pyc", line 274, in on_atom_hit_proton
+  File "gamelib\data.pyc", line 50, in play
+  File "pyglet\media\__init__.pyc", line 396, in play
+  File "pyglet\media\__init__.pyc", line 794, in queue
+  File "pyglet\media\__init__.pyc", line 571, in _get_queue_source
+AttributeError: 'StaticSource' object has no attribute '_data'
+Traceback (most recent call last):
+  File "_ctypes/callbacks.c", line 295, in 'calling callback function'
+  File "pyglet\window\win32\__init__.pyc", line 849, in _wnd_proc
+  File "pyglet\window\win32\__init__.pyc", line 918, in _event_key
+  File "pyglet\window\__init__.pyc", line 1219, in dispatch_event
+  File "pyglet\event.pyc", line 340, in dispatch_event
+  File "gamelib\layer\game.pyc", line 227, in on_key_press
+  File "gamelib\data.pyc", line 50, in play
+  File "pyglet\media\__init__.pyc", line 396, in play
+  File "pyglet\media\__init__.pyc", line 794, in queue
+  File "pyglet\media\__init__.pyc", line 571, in _get_queue_source
+AttributeError: 'StaticSource' object has no attribute '_data'
+Traceback (most recent call last):
+  File "_ctypes/callbacks.c", line 295, in 'calling callback function'
+  File "pymunk\__init__.pyc", line 521, in cf
+  File "gamelib\layer\game.pyc", line 245, in on_atom_hit_enemy
+  File "gamelib\data.pyc", line 50, in play
+  File "pyglet\media\__init__.pyc", line 396, in play
+  File "pyglet\media\__init__.pyc", line 794, in queue
+  File "pyglet\media\__init__.pyc", line 571, in _get_queue_source
+AttributeError: 'StaticSource' object has no attribute '_data'
+Traceback (most recent call last):
+  File "_ctypes/callbacks.c", line 295, in 'calling callback function'
+  File "pymunk\__init__.pyc", line 521, in cf
+  File "gamelib\layer\game.pyc", line 281, in on_atom_hit_electron
+  File "gamelib\data.pyc", line 50, in play
+  File "pyglet\media\__init__.pyc", line 396, in play
+  File "pyglet\media\__init__.pyc", line 794, in queue
+  File "pyglet\media\__init__.pyc", line 571, in _get_queue_source
+AttributeError: 'StaticSource' object has no attribute '_data'
+Traceback (most recent call last):
+  File "_ctypes/callbacks.c", line 295, in 'calling callback function'
+  File "pymunk\__init__.pyc", line 521, in cf
+  File "gamelib\layer\game.pyc", line 274, in on_atom_hit_proton
+  File "gamelib\data.pyc", line 50, in play
+  File "pyglet\media\__init__.pyc", line 396, in play
+  File "pyglet\media\__init__.pyc", line 794, in queue
+  File "pyglet\media\__init__.pyc", line 571, in _get_queue_source
+AttributeError: 'StaticSource' object has no attribute '_data'
+Traceback (most recent call last):
+  File "_ctypes/callbacks.c", line 295, in 'calling callback function'
+  File "pymunk\__init__.pyc", line 521, in cf
+  File "gamelib\layer\game.pyc", line 245, in on_atom_hit_enemy
+  File "gamelib\data.pyc", line 50, in play
+  File "pyglet\media\__init__.pyc", line 396, in play
+  File "pyglet\media\__init__.pyc", line 794, in queue
+  File "pyglet\media\__init__.pyc", line 571, in _get_queue_source
+AttributeError: 'StaticSource' object has no attribute '_data'
+Traceback (most recent call last):
+  File "_ctypes/callbacks.c", line 295, in 'calling callback function'
+  File "pyglet\window\win32\__init__.pyc", line 849, in _wnd_proc
+  File "pyglet\window\win32\__init__.pyc", line 918, in _event_key
+  File "pyglet\window\__init__.pyc", line 1219, in dispatch_event
+  File "pyglet\event.pyc", line 340, in dispatch_event
+  File "gamelib\layer\game.pyc", line 227, in on_key_press
+  File "gamelib\data.pyc", line 50, in play
+  File "pyglet\media\__init__.pyc", line 396, in play
+  File "pyglet\media\__init__.pyc", line 794, in queue
+  File "pyglet\media\__init__.pyc", line 571, in _get_queue_source
+AttributeError: 'StaticSource' object has no attribute '_data'
+Traceback (most recent call last):
+  File "_ctypes/callbacks.c", line 295, in 'calling callback function'
+  File "pymunk\__init__.pyc", line 521, in cf
+  File "gamelib\layer\game.pyc", line 245, in on_atom_hit_enemy
+  File "gamelib\data.pyc", line 50, in play
+  File "pyglet\media\__init__.pyc", line 396, in play
+  File "pyglet\media\__init__.pyc", line 794, in queue
+  File "pyglet\media\__init__.pyc", line 571, in _get_queue_source
+AttributeError: 'StaticSource' object has no attribute '_data'
+Traceback (most recent call last):
+  File "_ctypes/callbacks.c", line 295, in 'calling callback function'
+  File "pymunk\__init__.pyc", line 521, in cf
+  File "gamelib\layer\game.pyc", line 274, in on_atom_hit_proton
+  File "gamelib\data.pyc", line 50, in play
+  File "pyglet\media\__init__.pyc", line 396, in play
+  File "pyglet\media\__init__.pyc", line 794, in queue
+  File "pyglet\media\__init__.pyc", line 571, in _get_queue_source
+AttributeError: 'StaticSource' object has no attribute '_data'
+Traceback (most recent call last):
+  File "_ctypes/callbacks.c", line 295, in 'calling callback function'
+  File "pymunk\__init__.pyc", line 521, in cf
+  File "gamelib\layer\game.pyc", line 281, in on_atom_hit_electron
+  File "gamelib\data.pyc", line 50, in play
+  File "pyglet\media\__init__.pyc", line 396, in play
+  File "pyglet\media\__init__.pyc", line 794, in queue
+  File "pyglet\media\__init__.pyc", line 571, in _get_queue_source
+AttributeError: 'StaticSource' object has no attribute '_data'
+Traceback (most recent call last):
+  File "_ctypes/callbacks.c", line 295, in 'calling callback function'
+  File "pymunk\__init__.pyc", line 521, in cf
+  File "gamelib\layer\game.pyc", line 281, in on_atom_hit_electron
+  File "gamelib\data.pyc", line 50, in play
+  File "pyglet\media\__init__.pyc", line 396, in play
+  File "pyglet\media\__init__.pyc", line 794, in queue
+  File "pyglet\media\__init__.pyc", line 571, in _get_queue_source
+AttributeError: 'StaticSource' object has no attribute '_data'
+Traceback (most recent call last):
+  File "_ctypes/callbacks.c", line 295, in 'calling callback function'
+  File "pymunk\__init__.pyc", line 521, in cf
+  File "gamelib\layer\game.pyc", line 281, in on_atom_hit_electron
+  File "gamelib\data.pyc", line 50, in play
+  File "pyglet\media\__init__.pyc", line 396, in play
+  File "pyglet\media\__init__.pyc", line 794, in queue
+  File "pyglet\media\__init__.pyc", line 571, in _get_queue_source
+AttributeError: 'StaticSource' object has no attribute '_data'
+Traceback (most recent call last):
+  File "_ctypes/callbacks.c", line 295, in 'calling callback function'
+  File "pymunk\__init__.pyc", line 521, in cf
+  File "gamelib\layer\game.pyc", line 274, in on_atom_hit_proton
+  File "gamelib\data.pyc", line 50, in play
+  File "pyglet\media\__init__.pyc", line 396, in play
+  File "pyglet\media\__init__.pyc", line 794, in queue
+  File "pyglet\media\__init__.pyc", line 571, in _get_queue_source
+AttributeError: 'StaticSource' object has no attribute '_data'
+Traceback (most recent call last):
+  File "_ctypes/callbacks.c", line 295, in 'calling callback function'
+  File "pymunk\__init__.pyc", line 521, in cf
+  File "gamelib\layer\game.pyc", line 281, in on_atom_hit_electron
+  File "gamelib\data.pyc", line 50, in play
+  File "pyglet\media\__init__.pyc", line 396, in play
+  File "pyglet\media\__init__.pyc", line 794, in queue
+  File "pyglet\media\__init__.pyc", line 571, in _get_queue_source
+AttributeError: 'StaticSource' object has no attribute '_data'
+Traceback (most recent call last):
+  File "_ctypes/callbacks.c", line 295, in 'calling callback function'
+  File "pymunk\__init__.pyc", line 521, in cf
+  File "gamelib\layer\game.pyc", line 259, in on_enemy_hit_stronghold
+  File "gamelib\data.pyc", line 50, in play
+  File "pyglet\media\__init__.pyc", line 396, in play
+  File "pyglet\media\__init__.pyc", line 794, in queue
+  File "pyglet\media\__init__.pyc", line 571, in _get_queue_source
+AttributeError: 'StaticSource' object has no attribute '_data'

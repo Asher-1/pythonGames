@@ -1,0 +1,28 @@
+anim DaddyIdle
+duration 1.000000
+anim_bbox -83 -16 51 202
+image daddy-daddy_right.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anim DaddyIdleRight
+duration 1.000000
+anim_bbox -71 -6 65 201
+image daddy-daddy_left.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anchor 82 22 daddy-daddy_left.png
+anchor 86 27 daddy-daddy_right.png

@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "G:/develop/PycharmProjects/game/pyweek-download/Oscilliscape-150/run_game.py", line 142, in run
+    main.main()
+  File "gamelib\main.py", line 177, in main
+    Controller().run()
+  File "gamelib\main.py", line 159, in run
+    self.switch_handler("titlescreen")
+  File "gamelib\main.py", line 72, in switch_handler
+    self.handler = mode.get_handler(name, *args, **kwds)
+  File "gamelib\mode.py", line 29, in get_handler
+    return mode(*args, **kwds)
+  File "gamelib\levels.py", line 49, in __init__
+    self.music = data.load_song('TitlescreenMusic.ogg')
+  File "gamelib\data.py", line 59, in load_song
+    return media.load(song_path)
+  File "G:\develop\Anaconda3\envs\py27\lib\site-packages\pyglet\media\__init__.py", line 1429, in load
+    source = get_source_loader().load(filename, file)
+  File "G:\develop\Anaconda3\envs\py27\lib\site-packages\pyglet\media\__init__.py", line 1410, in load
+    return riff.WaveSource(filename, file)
+  File "G:\develop\Anaconda3\envs\py27\lib\site-packages\pyglet\media\riff.py", line 201, in __init__
+    'AVbin is required to decode compressed media')
+WAVEFormatException: AVbin is required to decode compressed media

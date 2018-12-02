@@ -1,0 +1,15 @@
+Tue Mar 13 17:43:19 2018| *** BEGIN ARDENTRYST LOGFILE ***
+Tue Mar 13 17:43:19 2018| Tue Mar 13 17:43:19 2018
+Tue Mar 13 17:43:19 2018| Python 2.7.13 |Anaconda 4.4.0 (64-bit)| (default, May 11 2017, 13:17:26) [MSC v.1500 64 bit (AMD64)]
+Tue Mar 13 17:43:19 2018| pygame v.1.9.3
+Tue Mar 13 17:43:19 2018| Debugging is disabled.
+Tue Mar 13 17:43:19 2018| Ardentryst v.20090726 (1.71-Comet Unstable) 1:11 PM AEST
+Tue Mar 13 17:43:19 2018| Secure hash code: b99b7926a1c50aff4ae718bbe321ca3f
+Tue Mar 13 17:43:19 2018| ACC1
+Tue Mar 13 17:43:19 2018| Configuring game settings...
+Traceback (most recent call last):
+  File "G:/develop/PycharmProjects/game/ardentryst1.71/ardentryst.py", line 4718, in <module>
+    main()
+  File "G:/develop/PycharmProjects/game/ardentryst1.71/ardentryst.py", line 3835, in main
+    raise Exception("** Please remove your options.dat file (in your ~/.ardentryst/ directory) and run Ardentryst again. **")
+Exception: ** Please remove your options.dat file (in your ~/.ardentryst/ directory) and run Ardentryst again. **

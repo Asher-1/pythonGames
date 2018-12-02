@@ -1,0 +1,94 @@
+base_tile: tiles/floor.png
+enemies:
+- args:
+  - [750, 300]
+  - [650, 500]
+  classname: PatrollingAlien
+game_objects:
+- args:
+  - [250, 350]
+  classname: Box
+- args:
+  - [300, 400]
+  classname: FloorSwitch
+  name: light_switch
+- args:
+  - [350, 250]
+  classname: ToggleSwitch
+  name: door_switch
+- args:
+  - [300, 600]
+  classname: collectable.Gun
+  name: gun
+- args:
+  - [300, 500]
+  - light_switch
+  classname: FloorLight
+  name: light
+- args:
+  - [250, 500]
+  - both_switches
+  classname: FloorLight
+  name: light2
+- args: [light_switch, door_switch]
+  classname: puzzle.StateLogicalAndPuzzler
+  name: both_switches
+- args:
+  - [620, 220]
+  - switch_door
+  classname: FloorLight
+  name: door_light
+- args:
+  - [290, 160]
+  - Run around, press some buttons, have fun!
+  classname: Note
+- args:
+  - [800, 680]
+  - [900, 680]
+  - door_switch
+  classname: Hatch
+  name: switch_hatch
+- args:
+  - [410, 400]
+  - level2
+  - [900, 200]
+  - 0
+  classname: Door
+- args:
+  - [561, 250]
+  - level1
+  - [600, 700]
+  - 0
+  - door_switch
+  classname: PuzzleDoor
+  name: switch_door
+lines:
+- - [750, 680]
+  - [800, 680]
+- - [900, 680]
+  - [950, 680]
+- - [750, 480]
+  - [950, 480]
+- - [750, 480]
+  - [750, 680]
+- - [950, 480]
+  - [950, 680]
+music: POL-cyber-factory-short.ogg
+polygons:
+  1:
+  - [60, 780]
+  - [130, 850]
+  - [1150, 850]
+  - [1010, 710]
+  - [1010, 190]
+  - [880, 60]
+  - [700, 60]
+  - [560, 200]
+  - [560, 650]
+  - [410, 650]
+  - [410, 70]
+  - [60, 70]
+  - [260, 270]
+  - [60, 470]
+  - [60, 780]
+size: [1200, 900]

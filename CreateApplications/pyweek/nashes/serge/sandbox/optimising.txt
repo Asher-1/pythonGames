@@ -1,0 +1,113 @@
+python magnetospheres.py -c  -s -e 20 -l 5 -p
+
+
+[ 21033] ::    INFO               Engine :: Engine info: (current fps=30.150338, ave fps=30.237711, ave render=0.023543s)
+Sun Jun 12 14:15:35 2011    profile
+
+         2710667 function calls (2710273 primitive calls) in 20.580 CPU seconds
+
+   Ordered by: cumulative time
+   List reduced from 644 to 100 due to restriction <100>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   20.580   20.580 /home/paul/workspace/svn/games/snooker/game/main.py:153(main)
+        1    0.026    0.026   20.021   20.021 /home/paul/workspace/svn/games/snooker/serge/engine.py:143(run)
+    38302   10.791    0.000   10.791    0.000 {method 'blit' of 'pygame.Surface' objects}
+      617    0.007    0.000    9.441    0.015 /home/paul/workspace/svn/games/snooker/serge/world.py:187(renderTo)
+      617    0.058    0.000    9.421    0.015 /home/paul/workspace/svn/games/snooker/serge/zone.py:129(renderTo)
+    27765    0.081    0.000    7.434    0.000 /home/paul/workspace/svn/games/snooker/serge/actor.py:114(renderTo)
+    23446    0.039    0.000    6.192    0.000 /home/paul/workspace/svn/games/snooker/serge/visual.py:262(renderTo)
+      617    0.002    0.000    3.997    0.006 /home/paul/workspace/svn/games/snooker/serge/engine.py:136(updateWorld)
+      617    0.003    0.000    3.995    0.006 /home/paul/workspace/svn/games/snooker/serge/world.py:58(updateWorld)
+      617    0.030    0.000    3.991    0.006 /home/paul/workspace/svn/games/snooker/serge/zone.py:58(updateZone)
+      617    0.012    0.000    3.399    0.006 /home/paul/workspace/svn/games/snooker/serge/render.py:109(render)
+     3085    0.007    0.000    3.066    0.001 /home/paul/workspace/svn/games/snooker/serge/render.py:169(render)
+      617    0.277    0.000    2.062    0.003 /home/paul/workspace/svn/games/snooker/serge/zone.py:175(_updatePhysics)
+     3702    1.993    0.001    1.993    0.001 {method 'fill' of 'pygame.Surface' objects}
+      617    0.007    0.000    1.688    0.003 /home/paul/workspace/svn/games/snooker/serge/render.py:104(preRender)
+     3085    0.008    0.000    1.681    0.001 /home/paul/workspace/svn/games/snooker/serge/render.py:165(clearSurface)
+    19987    1.477    0.000    1.566    0.000 /usr/local/lib/python2.6/dist-packages/pymunk-1.0.0-py2.6.egg/pymunk/__init__.py:274(step)
+      617    0.040    0.000    1.403    0.002 /home/paul/workspace/svn/games/snooker/game/scoreboard.py:48(renderTo)
+      617    1.224    0.002    1.224    0.002 {pygame.display.flip}
+     6170    0.011    0.000    1.152    0.000 /home/paul/workspace/svn/games/snooker/serge/visual.py:361(renderTo)
+     5579    0.085    0.000    1.094    0.000 /home/paul/workspace/svn/games/snooker/serge/visual.py:307(setText)
+      617    0.049    0.000    0.998    0.002 /home/paul/workspace/svn/games/snooker/game/mainscreen.py:118(updateActor)
+    16659    0.033    0.000    0.929    0.000 /home/paul/workspace/svn/games/snooker/serge/actor.py:133(setAngle)
+    16792    0.164    0.000    0.800    0.000 /home/paul/workspace/svn/games/snooker/serge/visual.py:208(setCells)
+    16659    0.020    0.000    0.792    0.000 /home/paul/workspace/svn/games/snooker/serge/visual.py:255(setAngle)
+     1851    0.163    0.000    0.790    0.000 /home/paul/workspace/svn/games/snooker/game/magnet.py:58(updateActor)
+     1234    0.141    0.000    0.681    0.001 /home/paul/workspace/svn/games/snooker/serge/visual.py:349(setFontSize)
+    11165    0.676    0.000    0.676    0.000 {method 'render' of 'pygame.font.Font' objects}
+    16555    0.453    0.000    0.453    0.000 {pygame.transform.rotate}
+    43807    0.143    0.000    0.429    0.000 /usr/local/lib/python2.6/dist-packages/pymunk-1.0.0-py2.6.egg/pymunk/__init__.py:710(apply_force)
+     1851    0.025    0.000    0.391    0.000 /home/paul/workspace/svn/games/snooker/game/magnet.py:91(renderTo)
+      617    0.089    0.000    0.364    0.001 /home/paul/workspace/svn/games/snooker/game/mainscreen.py:165(renderTo)
+        1    0.002    0.002    0.346    0.346 /home/paul/workspace/svn/games/snooker/game/main.py:35(registerGraphics)
+      617    0.001    0.000    0.321    0.001 /home/paul/workspace/svn/games/snooker/serge/render.py:100(clearSurface)
+   207268    0.224    0.000    0.319    0.000 /usr/local/lib/python2.6/dist-packages/pymunk-1.0.0-py2.6.egg/pymunk/vec2d.py:46(__init__)
+    87768    0.062    0.000    0.287    0.000 /usr/local/lib/python2.6/dist-packages/pymunk-1.0.0-py2.6.egg/pymunk/vec2d.py:41(from_param)
+        3    0.011    0.004    0.244    0.081 /home/paul/workspace/svn/games/snooker/serge/visual.py:80(registerFromFiles)
+       45    0.176    0.004    0.176    0.004 {pygame.imageext.load_extended}
+     1851    0.003    0.000    0.151    0.000 /home/paul/workspace/svn/games/snooker/serge/visual.py:344(setColour)
+        1    0.000    0.000    0.141    0.141 /home/paul/workspace/svn/games/snooker/game/main.py:71(startEngine)
+    16792    0.128    0.000    0.128    0.000 {method 'copy' of 'pygame.Surface' objects}
+        1    0.000    0.000    0.127    0.127 /home/paul/workspace/svn/games/snooker/serge/engine.py:35(__init__)
+        1    0.000    0.000    0.127    0.127 /home/paul/workspace/svn/games/snooker/serge/render.py:27(__init__)
+        1    0.000    0.000    0.127    0.127 /home/paul/workspace/svn/games/snooker/serge/render.py:42(init)
+        1    0.050    0.050    0.123    0.123 {pygame.display.set_mode}
+   215333    0.118    0.000    0.118    0.000 /usr/local/lib/python2.6/dist-packages/pymunk-1.0.0-py2.6.egg/pymunk/vec2d.py:58(__getitem__)
+    13574    0.021    0.000    0.115    0.000 /usr/local/lib/python2.6/dist-packages/pymunk-1.0.0-py2.6.egg/pymunk/vec2d.py:362(normalized)
+    16773    0.030    0.000    0.105    0.000 /home/paul/workspace/svn/games/snooker/serge/actor.py:81(_resetVisual)
+     1851    0.022    0.000    0.102    0.000 /home/paul/workspace/svn/games/snooker/game/goal.py:29(updateActor)
+       29    0.000    0.000    0.101    0.003 /home/paul/workspace/svn/games/snooker/serge/registry.py:49(registerItem)
+       27    0.000    0.000    0.100    0.004 /home/paul/workspace/svn/games/snooker/serge/visual.py:23(_registerItem)
+      617    0.002    0.000    0.099    0.000 /home/paul/workspace/svn/games/snooker/serge/engine.py:267(processEvents)
+      617    0.005    0.000    0.096    0.000 /home/paul/workspace/svn/games/snooker/serge/input.py:196(getActorEvents)
+    14191    0.011    0.000    0.085    0.000 /usr/local/lib/python2.6/dist-packages/pymunk-1.0.0-py2.6.egg/pymunk/vec2d.py:198(__div__)
+     5016    0.010    0.000    0.085    0.000 /usr/local/lib/python2.6/dist-packages/pymunk-1.0.0-py2.6.egg/pymunk/__init__.py:419(cf)
+     9328    0.012    0.000    0.080    0.000 /home/paul/workspace/svn/games/snooker/serge/blocks/visualblocks.py:21(renderTo)
+    27148    0.055    0.000    0.080    0.000 /home/paul/workspace/svn/games/snooker/serge/camera.py:59(getRelativeLocation)
+    14191    0.033    0.000    0.075    0.000 /usr/local/lib/python2.6/dist-packages/pymunk-1.0.0-py2.6.egg/pymunk/vec2d.py:95(_o2)
+        1    0.001    0.001    0.073    0.073 /usr/lib/python2.6/dist-packages/pygame/pkgdata.py:18(<module>)
+        1    0.003    0.003    0.071    0.071 /usr/lib/python2.6/dist-packages/pkg_resources.py:14(<module>)
+     5016    0.014    0.000    0.069    0.000 /home/paul/workspace/svn/games/snooker/serge/zone.py:160(_checkCollision)
+    72335    0.069    0.000    0.069    0.000 {hasattr}
+      617    0.014    0.000    0.068    0.000 /home/paul/workspace/svn/games/snooker/serge/world.py:89(findActorsAt)
+     9328    0.067    0.000    0.067    0.000 {pygame.draw.rect}
+    28999    0.017    0.000    0.065    0.000 /home/paul/workspace/svn/games/snooker/serge/camera.py:34(canSee)
+    43807    0.022    0.000    0.064    0.000 /usr/local/lib/python2.6/dist-packages/pymunk-1.0.0-py2.6.egg/pymunk/vec2d.py:85(__ne__)
+     5553    0.010    0.000    0.064    0.000 /home/paul/workspace/svn/games/snooker/serge/world.py:72(findActorsByTag)
+      617    0.004    0.000    0.061    0.000 /home/paul/workspace/svn/games/snooker/serge/input.py:76(update)
+    21115    0.028    0.000    0.061    0.000 /home/paul/workspace/svn/games/snooker/serge/actor.py:177(moveTo)
+      617    0.039    0.000    0.055    0.000 /home/paul/workspace/svn/games/snooker/serge/input.py:25(getCopy)
+      617    0.055    0.000    0.055    0.000 {method 'tick' of 'Clock' objects}
+    10032    0.025    0.000    0.054    0.000 /usr/local/lib/python2.6/dist-packages/pymunk-1.0.0-py2.6.egg/pymunk/__init__.py:1166(_get_shapes)
+     5553    0.052    0.000    0.052    0.000 /home/paul/workspace/svn/games/snooker/serge/zone.py:111(findActorsByTag)
+    13574    0.025    0.000    0.051    0.000 /usr/local/lib/python2.6/dist-packages/pymunk-1.0.0-py2.6.egg/pymunk/vec2d.py:176(__mul__)
+    17276    0.032    0.000    0.049    0.000 /usr/local/lib/python2.6/dist-packages/pymunk-1.0.0-py2.6.egg/pymunk/vec2d.py:127(__add__)
+    29116    0.026    0.000    0.049    0.000 /home/paul/workspace/svn/games/snooker/serge/geometry.py:114(isOverlapping)
+    30233    0.029    0.000    0.045    0.000 /home/paul/workspace/svn/games/snooker/serge/geometry.py:203(isInside)
+    16773    0.039    0.000    0.043    0.000 /home/paul/workspace/svn/games/snooker/serge/geometry.py:135(getSpatialCentered)
+    18510    0.042    0.000    0.042    0.000 /usr/local/lib/python2.6/dist-packages/pymunk-1.0.0-py2.6.egg/pymunk/__init__.py:706(reset_forces)
+        1    0.000    0.000    0.038    0.038 /home/paul/workspace/svn/games/snooker/game/startscreen.py:180(main)
+        1    0.000    0.000    0.038    0.038 /home/paul/workspace/svn/games/snooker/game/startscreen.py:24(__init__)
+    13574    0.024    0.000    0.037    0.000 /usr/local/lib/python2.6/dist-packages/pymunk-1.0.0-py2.6.egg/pymunk/vec2d.py:149(__sub__)
+       30    0.000    0.000    0.037    0.001 /home/paul/workspace/svn/games/snooker/serge/visual.py:52(_registerImage)
+    27148    0.031    0.000    0.037    0.000 /usr/local/lib/python2.6/dist-packages/pymunk-1.0.0-py2.6.egg/pymunk/vec2d.py:282(get_length)
+        1    0.000    0.000    0.035    0.035 /usr/lib/python2.6/dist-packages/pkg_resources.py:662(subscribe)
+      120    0.000    0.000    0.035    0.000 /usr/lib/python2.6/dist-packages/pkg_resources.py:2691(<lambda>)
+      120    0.001    0.000    0.035    0.000 /usr/lib/python2.6/dist-packages/pkg_resources.py:2189(activate)
+    13574    0.021    0.000    0.035    0.000 /usr/local/lib/python2.6/dist-packages/pymunk-1.0.0-py2.6.egg/pymunk/vec2d.py:260(__neg__)
+    11269    0.028    0.000    0.033    0.000 /home/paul/workspace/svn/games/snooker/serge/common.py:90(processEvent)
+    21115    0.033    0.000    0.033    0.000 /home/paul/workspace/svn/games/snooker/serge/geometry.py:153(moveTo)
+    16773    0.014    0.000    0.031    0.000 /home/paul/workspace/svn/games/snooker/serge/geometry.py:131(setSpatialCentered)
+       85    0.001    0.000    0.029    0.000 /home/paul/workspace/svn/games/snooker/serge/blocks/utils.py:40(addSpriteActorToWorld)
+    20064    0.029    0.000    0.029    0.000 /usr/local/lib/python2.6/dist-packages/pymunk-1.0.0-py2.6.egg/pymunk/__init__.py:1169(_get_shape)
+      133    0.001    0.000    0.029    0.000 /home/paul/workspace/svn/games/snooker/serge/visual.py:184(setImage)
+    16915    0.029    0.000    0.029    0.000 {method 'subsurface' of 'pygame.Surface' objects}
+    29617    0.027    0.000    0.027    0.000 /home/paul/workspace/svn/games/snooker/serge/render.py:67(getLayer)
+        2    0.025    0.012    0.025    0.012 {pygame.transform.smoothscale}
+    27148    0.025    0.000    0.025    0.000 /home/paul/workspace/svn/games/snooker/serge/geometry.py:140(getRelativeLocation)
+    61965    0.024    0.000    0.024    0.000 {isinstance}
+    24680    0.014    0.000    0.023    0.000 /home/paul/workspace/svn/games/snooker/serge/geometry.py:110(isInside)
+

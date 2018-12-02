@@ -1,0 +1,22 @@
+# Blender3D MTL File: hypno-5.blend
+# Material Count: 2
+newmtl None_caststeel.jpg
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd caststeel.jpg
+
+
+newmtl None_iron_wrought.jpg
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd iron_wrought.jpg
+
+

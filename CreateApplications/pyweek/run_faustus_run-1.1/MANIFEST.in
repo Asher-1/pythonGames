@@ -1,0 +1,6 @@
+include run_game.py
+recursive-include gamelib *.py
+recursive-include gamelib/data *.png
+recursive-include gamelib/data *.wav
+recursive-include gamelib/data *.ogg
+recursive-include gamelib/data *.ttf

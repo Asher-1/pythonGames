@@ -1,0 +1,66 @@
+base_tile: tiles/floor_light.png
+enemies:
+- args:
+  - [200, 250]
+  - 300
+  classname: ChargingAlien
+- args:
+  - [120, 250]
+  - 200
+  classname: RunAndGunAlien
+game_objects:
+- args:
+  - [400, 440]
+  - level1
+  - [600, 700]
+  - 90
+  classname: Door
+- args:
+  - [600, 150]
+  - - [600, 150]
+    - [600, 200]
+    - [700, 200]
+    - [700, 150]
+  classname: AcidFloor
+- args:
+  - [600, 250]
+  - - [600, 250]
+    - [600, 300]
+    - [700, 300]
+    - [700, 250]
+  classname: ForceWolfFloor
+- args:
+  - [600, 440]
+  - level2
+  - [800, 300]
+  - 90
+  - keycard_red
+  classname: KeyedDoor
+- args:
+  - [400, 200]
+  - keycard_red
+  classname: collectable.KeyCard
+  name: keycard_red
+lines: []
+music: POL-cyber-factory-short.ogg
+polygons:
+  1:
+  - [70, 440]
+  - [1120, 440]
+  - [1120, 50]
+  - [20, 50]
+  - [20, 440]
+  - [70, 440]
+  5:
+  - [230, 180]
+  - [320, 180]
+  - [320, 310]
+  - [530, 310]
+  - [530, 90]
+  - [460, 90]
+  - [460, 260]
+  - [350, 260]
+  - [350, 140]
+  - [230, 140]
+  - [230, 180]
+size: [1200, 500]

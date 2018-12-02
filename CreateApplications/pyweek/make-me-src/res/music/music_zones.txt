@@ -1,0 +1,18 @@
+zone -6313 -1862 water
+zone -6313 68 air
+zone -4134 68 water
+zone -4134 211 air
+zone -3307 27 air
+zone -1520 -1222 sewer
+zone 1596 -1332 water
+zone 1596 -1099 sewer
+zone 1886 -1341 water
+zone -2879 -51 air
+zone 60 -20 air
+zone 510 749 cave
+zone 1413 421 cave
+zone 1922 -120 cave
+track air Musty-Flows-C-83.5.mp3
+track sewer K-Kiddies.mp3
+track water Dopekick-Childhoods.mp3
+track cave Angelica_01.mp3

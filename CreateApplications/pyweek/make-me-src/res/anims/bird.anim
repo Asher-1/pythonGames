@@ -1,0 +1,14 @@
+anim BirdIdle
+duration 1.000000
+anim_bbox -32 -24 48 43
+image bird-bird.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anchor 41 29 bird-bird.png

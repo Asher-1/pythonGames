@@ -1,0 +1,83 @@
+Bob{
+Bob> Hello, we haven't seen each other before
+> No, this is the first time
+Bob> Well hello, and welcome to the town
+choice{
+     > Thanks
+     Bob> You are welcome. Please feel free to ask me anything
+
+     > The town?
+     Bob> Yes, you are in a town you know. Got any questions?
+}
+loop{
+     > Where is the cathedral?
+     Bob> Yes, it is in the north
+
+     > Is there a shop here?
+     Bob> What kind of shop did you have in mind?
+     choice{
+          > A health shop
+          Bob> Well, that is to the east
+
+          > A bomb shop
+          Bob> There isn't one of those
+     }
+
+     > I've nothing more to ask
+     $break
+}
+%Bob.spoken-once 
+}
+
+
+Bob, Bob.spoken-once{
+Bob> Hello again
+> Bye
+%Bob.spoken-twice
+}
+
+Bob, Bob.spoken-twice{
+     Bob> Well, you are the chatty one aren't you?
+}
+
+
+Fred{
+     Fred> You need to talk to Bob first
+     > Ok, I will
+     %Fred.failed-once
+}
+
+Fred, Fred.failed-once{
+     Fred> I told you before and I won't tell you again. Talk to Bob!
+     > Duly noted.
+}
+
+Fred, Bob.spoken-once{
+     Fred> So Bob filled you in?
+     choice{
+          > Yes
+          Fred> Ok, well then. You should know it all
+          %Fred.general-question
+          $continue
+
+          > No
+          Fred> Well, go and talk to him again
+          %!Bob.spoken-once
+          %!Bob.spoken-twice
+     }
+}
+
+Fred, Fred.general-question{
+     Fred> Did you have any other questions?
+     loop{
+          > Is there a way out?
+          Fred> No
+
+          > Is there anything to do?
+          Fred> Lots
+     
+          > I have nothing further
+          Fred> Fine
+          $break
+     }
+}

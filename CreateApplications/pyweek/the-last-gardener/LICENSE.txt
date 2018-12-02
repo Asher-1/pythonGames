@@ -1,0 +1,224 @@
+Licensing
+=========
+
+The source code for The Last Gardener, which includes all files in the
+'game' directory, is licensed under the BSD 3-clause license, which is
+reproduced below:
+
+Copyright (c) 2016, Jjp137 and LegoBricker
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, 
+this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, 
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors
+may be used to endorse or promote products derived from this software without
+specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+---
+
+Credits and licensing information for all assets used in this game are listed
+below.
+
+Note that while we tried to be as accurate as possible, there may be mistakes
+in this document due to the time limit that PyWeek imposes. If you plan on
+using anything from this game for your own work, try to use the original
+sources instead if possible.
+
+Links to the text of all licenses mentioned:
+
+- CC0: https://creativecommons.org/publicdomain/zero/1.0/
+- CC-BY 3.0: https://creativecommons.org/licenses/by/3.0/
+- CC-BY-SA 3.0: https://creativecommons.org/licenses/by-sa/3.0/
+- GPLv2: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+- GPLv3: https://www.gnu.org/licenses/gpl-3.0.en.html
+- OFL: http://scripts.sil.org/OFL
+
+alien_blue.png, alien_cyan.png, alien_green.png, alien_purple.png, and
+alien_red.png are derivations of artwork by Daniel Cook that can be found at:
+http://opengameart.org/content/iron-plague-cargo1bmp
+It is under the CC-BY 3.0 license, and we release our versions under the
+same license.
+
+boss.png is a derivation of artwork by pzUH that can be found at:
+http://opengameart.org/content/alien-spaceship-sprite-pack
+It is under the CC0 license, and we release our version under the same license.
+
+bullet_blue.png, bullet_cyan.png, bullet_green.png, bullet_purple.png,
+bullet_red.png, and bullet_yellow.png are derivations of artwork by Master484 
+that can be found at: http://opengameart.org/content/bullet-collection-1-m484
+It is under the CC0 license, and we release our versions under the same license.
+Author's website: http://m484games.ucoz.com/
+
+bullet_big_blue.png, bullet_big_cyan.png, bullet_big_green.png,
+bullet_big_purple.png, bullet_big_red.png, and bullet_big_yellow.png are
+derivations of artwork by Gumichan01 that can be found at:
+http://opengameart.org/content/missiles-bullets-and-bomb-set
+It is under the CC-BY-SA 3.0 license, and we release our versions under
+the same license.
+Author's website: http://gumichan01.olympe.in
+
+grass1.png, grass2.png and grass3.png are derivations of artwork by Charlie
+that can be found at:
+http://opengameart.org/content/tileable-mowed-grass-textures-256x256
+It is used under the CC-BY-SA 3.0 license, and we release our versions with the
+choice of the CC-BY-SA 3.0 or GPLv3 license, which were the licenses permitted
+in the original work.
+
+heart.png is a derivation of artwork by NicoleMarieProductions that can be
+found at: http://opengameart.org/content/heart-1616
+It is under the CC-BY 3.0 license, and we release our version under the
+same license.
+
+medal_bronze.png, medal_silver.png, medal_gold.png, ribbon_bronze.png,
+ribbon_silver.png, and ribbon_gold.png are derivations of artwork by Kenney
+that can be found at: http://opengameart.org/content/medals-2
+It is under the CC0 license, and we release our versions under the same license.
+Author's website: www.kenney.nl
+
+spinner.png and spinner_dead.png are derivations of artwork by Chotkos that
+can be found at: http://opengameart.org/content/spinblade-pro-spinblades-set
+It is under the CC0 license, and we release our versions under the same license.
+
+left_arrow.png, left_selected.png, menu_cursor.png, right_arrow.png, and
+right_selected.png are derivations of artwork by Jordan Trudgett that can be
+found at:
+http://opengameart.org/content/cursors-arrows-map-markers-for-ardentryst-by-jordan-trudgett
+It is under the CC-BY 3.0 license, and we release our version under the
+same license.
+
+hitbox.png, level_popup.png, progress_bar.png, progress_cutoff.png,
+progress_outline.png, status_bar.png, and story_bar.png were created for this
+project, and we release them under the CC0 license.
+
+big_victory.ogg is a derivation of a sound effect by jimhancock that can be
+found at: https://www.freesound.org/people/jimhancock/sounds/256128/
+It is under the CC0 license, and we release our version under the same license.
+
+enemy_fire.ogg and player_hit.ogg are derivations of sound effects by bart
+that can be found at: http://opengameart.org/content/8-bit-platformer-sfx
+It is under the CC-BY 3.0 license, and we release our version under the
+same license.
+
+failure.ogg is a derivation of a sound effect by fins that can be found at:
+https://www.freesound.org/people/fins/sounds/171673/
+It is under the CC0 license, and we release our version under the same license.
+
+menu_move.ogg and menu_select.ogg are derivations of sound effects by p0ss
+that can be found at:
+http://opengameart.org/content/interface-sounds-starter-pack
+It is used under the CC-BY-SA 3.0 license, and we release our versions with the
+choice of the CC-BY-SA 3.0, GPLv3 license, or GPLv2 license, which were the
+licenses permitted in the original work.
+
+mowing_idle.ogg is a derivation of a sound effect by mhtaylor67 that can be
+found at: https://www.freesound.org/people/mhtaylor67/sounds/126036/
+It is under the CC0 license, and we release our version under the same license.
+
+mowing_loop.ogg and mowing_slowdown.ogg are derivations of a sound effect by 
+jedspear that can be found at:
+https://www.freesound.org/people/jedspear/sounds/322919/
+It is under the CC0 license, and we release our versions under the same license.
+
+time_countdown.ogg was created for this project by LegoBricker.
+It is under the CC0 license.
+
+victory.ogg is a derivation of a sound effect by milton. that can be found at:
+https://www.freesound.org/people/milton./sounds/183457/
+It is under the CC0 license, and we release our version under the same license.
+
+Credit information for gameplay.ogg:
+Pixelland Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 3.0 License
+http://creativecommons.org/licenses/by/3.0/
+The file was converted to .ogg format.
+
+Credit information for boss.ogg:
+Rhinoceros Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 3.0 License
+http://creativecommons.org/licenses/by/3.0/
+The file was converted to .ogg format.
+
+menu.ogg is the work of Trevor Lentz and can be found here:
+http://opengameart.org/content/town-center
+It is under the CC-BY-SA 3.0 license.
+
+story_1.png uses an image from NASA found at:
+https://www.nasa.gov/sites/default/files/thumbnails/image/iss042e340851_1.jpg
+as well as other works mentioned in this document.
+Link to NASA's media guidelines:
+https://www.nasa.gov/multimedia/guidelines/index.html
+We release story_1.png under the CC-BY 3.0 license.
+
+story_2.png uses artwork by devnewton found at:
+http://opengameart.org/content/city-silhouhette
+as well as other works mentioned in this document.
+It is under the CC-BY-SA 3.0 license, and thus, we release story_2.png under
+the same license.
+
+story_3.png uses public domain images from:
+https://commons.wikimedia.org/wiki/Category:Cash_on_delivery
+We release story_3.png under the CC-BY 3.0 license.
+
+We release story_4.png, tutorial_1.png, and tutorial_2.png under the
+CC-BY-SA 3.0 license. They use other works mentioned in this document.
+
+story_5.png uses this image taken by Jan Polák:
+https://commons.wikimedia.org/wiki/Category:Robotic_lawn_mowers#/media/File:Praha,_m%C3%ADsa_v_Rajské_zahradě_Hradu_(6).jpg
+as well as other works mentioned in this document.
+It is under the CC-BY-SA 3.0 license, and thus, we release story_5.png under
+the same license.
+
+story_6.png and story_7.png use this image taken by Fanghong:
+https://commons.wikimedia.org/wiki/United_Nations_–_Nations_Unies#/media/File:YN_UNHeadquarter_Court.jpg
+as well as other works mentioned in this document.
+It is under the CC-BY-SA 3.0 license, and thus, we release story_6.png and
+story_7.png under the same license.
+
+story_8.png uses this image taken by Neptuul:
+https://commons.wikimedia.org/wiki/United_Nations_–_Nations_Unies#/media/File:UN-Sicherheitsrat_-_UN_Security_Council_-_New_York_City_-_2014_01_06.jpg
+as well as other works mentioned in this document.
+It is under the CC-BY-SA 3.0 license, and thus, we release story_8.png under
+the same license.
+
+story_9.png uses this image by NASA:
+https://commons.wikimedia.org/wiki/Earth#/media/File:The_Earth_seen_from_Apollo_17.jpg
+It is under the public domain, and we release story_9.png under the CC0 license.
+
+story_10.png was created for this project by LegoBricker. We release
+story_10.png under the CC0 license.
+
+background_1.png and background_2.png are derivatives of this image found at:
+https://commons.wikimedia.org/wiki/Lawn_mower#/media/File:Lawn_mower_advertisement_-Curtis%27s_Botanical_Magazine_vol._102_(1876).jpg
+This image is also used as part of story_8.png.
+It is under the public domain, and we release our version under the CC0
+license.
+
+The main font used in this game, bagnard_sans.ttf, is based on the ODT version
+of the font created by Sebastien Sanfilippo that can be found at: 
+https://fontlibrary.org/en/font/bagnard-sans
+It is under the OFL license.
+
+The font used in background_1.png, background_2.png, story_9.png, and
+story_10.png was created by Aydi Rainkarnichi and can be found here:
+https://fontlibrary.org/en/font/amburegul
+It is under the OFL license.
+

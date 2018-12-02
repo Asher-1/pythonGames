@@ -1,0 +1,14 @@
+anim GlarentIdle
+duration 1.000000
+anim_bbox -435 -130 403 324
+image glarent-01.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anchor 93 18 glarent-01.png

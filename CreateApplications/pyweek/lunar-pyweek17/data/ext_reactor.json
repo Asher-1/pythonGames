@@ -1,0 +1,14 @@
+{
+    "info": {
+        "5,5": { "text": [
+        "Service android 4. Currently disconnected.",
+        "It is covered in blood." ], "score": 1 },
+        "2,6": { "text": "Congratulations agent, your investigation is over.", "score": 1, "special": "win" }
+    },
+    "action": {
+    },
+    "exit": {
+        "3,7": { "target": "biometry.json", "destination": [2,0], "face": 0 },
+        "4,7": { "target": "biometry.json", "destination": [3,0], "face": 0 }
+    }
+}

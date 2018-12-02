@@ -1,0 +1,101 @@
+# Blender3D MTL File: gumball-machine.blend
+# Material Count: 9
+newmtl Material.002_boiler_plate.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.355597 0.184752 0.788798
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd boiler_plate.jpg
+
+
+newmtl Material.002_caststeel.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.355597 0.184752 0.788798
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd caststeel.jpg
+
+
+newmtl Material.003_caststeel.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.184752 0.788798 0.195196
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd caststeel.jpg
+
+
+newmtl Material_boiler_plate.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd boiler_plate.jpg
+
+
+newmtl Material.001_caststeel.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.788798 0.184752 0.184752
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd caststeel.jpg
+
+
+newmtl Material.004_caststeel.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.788798 0.688844 0.184752
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd caststeel.jpg
+
+
+newmtl Material_caststeel.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd caststeel.jpg
+
+
+newmtl Material.001_boiler_plate.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.788798 0.184752 0.184752
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd boiler_plate.jpg
+
+
+newmtl Material.003_boiler_plate.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.184752 0.788798 0.195196
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd boiler_plate.jpg
+
+

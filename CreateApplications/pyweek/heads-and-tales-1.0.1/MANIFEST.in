@@ -1,0 +1,3 @@
+include run_game.py
+recursive-include gamelib/data *.png *.ttf *.mp3 *.ico *.icns *.dat
+recursive-include gamelib/data/maps *.py

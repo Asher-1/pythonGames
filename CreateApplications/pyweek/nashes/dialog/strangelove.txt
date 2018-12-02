@@ -1,0 +1,144 @@
+
+
+start-instructions-test-level-1 {
+    1. Hello and welcome to level 1
+    2. This is some more text
+    3. Are you ready to go?
+}
+
+success-instructions-test-level-1 {
+    1. You made it out after pressing the switch.
+    2. That was good going!
+    3. Ready for some more?
+}
+
+failure-instructions-test-level-1 {
+    1. You made it out but didn't press the button
+    2. The device will go off if you don't
+    3. Is that clear for next time?
+    4. OK, lets go again.
+}
+
+
+start-instructions-test-level-2 {
+    0. QUIT
+    1. Hello and welcome to level 2
+}
+
+success-instructions-test-level-2 {
+    3. Ready for some more?
+}
+
+failure-instructions-test-level-2 {
+
+    4. OK, lets go again.
+}
+
+failure-captured-instructions-test-level-2 {
+    1. They got hold of you
+    2. How do you expect to stop the apocalypse?
+    3. Try again!
+}
+
+
+start-instructions-switching {
+    0. QUIT
+    1. Hello and welcome to level 2
+}
+
+success-instructions-switching {
+    3. Ready for some more?
+}
+
+failure-instructions-switching {
+
+    4. OK, lets go again.
+}
+
+failure-captured-instructions-switching {
+    1. They got hold of you
+    2. How do you expect to stop the apocalypse?
+    3. Try again!
+}
+
+start-instructions-distracting {
+    0. QUIT
+    1. Hello and welcome to level 2
+}
+
+success-instructions-distracting {
+    3. Ready for some more?
+}
+
+failure-instructions-distracting {
+
+    4. OK, lets go again.
+}
+
+failure-captured-instructions-distracting {
+    1. They got hold of you
+    2. How do you expect to stop the apocalypse?
+    3. Try again!
+}
+
+
+
+start-instructions-level-3 {
+    0. QUIT
+    1. Hello and welcome to level 2
+}
+
+success-instructions-level-3 {
+    3. Ready for some more?
+}
+
+failure-instructions-level-3 {
+
+    4. OK, lets go again.
+}
+
+failure-captured-instructions-level-3 {
+    1. They got hold of you
+    2. How do you expect to stop the apocalypse?
+    3. Try again!
+}
+
+start-instructions-level-4 {
+    0. QUIT
+    1. Hello and welcome to level 2
+}
+
+success-instructions-level-4 {
+    3. Ready for some more?
+}
+
+failure-instructions-level-4 {
+
+    4. OK, lets go again.
+}
+
+failure-captured-instructions-level-4 {
+    1. They got hold of you
+    2. How do you expect to stop the apocalypse?
+    3. Try again!
+}
+
+start-instructions-level-5 {
+    0. QUIT
+    1. Hello and welcome to level 2
+}
+
+success-instructions-level-5 {
+    3. Ready for some more?
+}
+
+failure-instructions-level-5 {
+
+    4. OK, lets go again.
+}
+
+failure-captured-instructions-level-5 {
+    1. They got hold of you
+    2. How do you expect to stop the apocalypse?
+    3. Try again!
+}

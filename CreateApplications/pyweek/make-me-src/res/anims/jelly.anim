@@ -1,0 +1,14 @@
+anim JellyIdle
+duration 1.000000
+anim_bbox -21 -57 23 42
+image jelly-01.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anchor 29 66 jelly-01.png

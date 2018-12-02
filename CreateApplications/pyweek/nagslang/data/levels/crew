@@ -1,0 +1,776 @@
+base_tile: tiles/floor.png
+enemies:
+- args:
+  - [1956, 1148]
+  - 300
+  classname: ChargingAlien
+  name: charging_1
+- args:
+  - [1920, 1084]
+  - 300
+  classname: ChargingAlien
+  name: charging_2
+- args:
+  - [1896, 1424]
+  - 300
+  classname: ChargingAlien
+  name: charging_3
+- args:
+  - [1948, 1368]
+  - 300
+  classname: ChargingAlien
+  name: charging_4
+- args:
+  - [1968, 1296]
+  - 300
+  classname: ChargingAlien
+  name: charging_5
+- args:
+  - [1968, 1220]
+  - 300
+  classname: ChargingAlien
+  name: charging_6
+- args:
+  - [1796, 1016]
+  - 300
+  classname: ChargingAlien
+  name: charging_7
+- args:
+  - [1860, 1044]
+  - 300
+  classname: ChargingAlien
+  name: charging_8
+- args:
+  - [1832, 1472]
+  - 300
+  classname: ChargingAlien
+  name: charging_9
+- args:
+  - [834, 1842]
+  - [982, 1680]
+  classname: PatrollingAlien
+  name: patrol_1
+- args:
+  - [740, 2122]
+  - [726, 2289]
+  classname: PatrollingAlien
+  name: patrol_1
+- args:
+  - [936, 1668]
+  - [1102, 1504]
+  classname: PatrollingAlien
+  name: patrol_2
+- args:
+  - [624, 1716]
+  - [470, 1560]
+  classname: PatrollingAlien
+  name: patrol_3
+- args:
+  - [1024, 1788]
+  - [1249, 1736]
+  classname: PatrollingAlien
+  name: patrol_4
+- args:
+  - [748, 1640]
+  - [668, 1419]
+  classname: PatrollingAlien
+  name: patrol_5
+- args:
+  - [572, 2016]
+  - [365, 20035]
+  classname: PatrollingAlien
+  name: patrol_6
+- args:
+  - [552, 1864]
+  - [272, 1806]
+  classname: PatrollingAlien
+  name: patrol_7
+- args:
+  - [1044, 1936]
+  - [900, 900]
+  classname: PatrollingAlien
+  name: patrol_8
+- args:
+  - [932, 2072]
+  - [1050, 2180]
+  classname: PatrollingAlien
+  name: patrol_9
+- args:
+  - [740, 1938]
+  - [586, 2090]
+  classname: PatrollingAlien
+  name: patrol_10
+- args:
+  - [1588, 2196]
+  - 300
+  classname: RunAndGunAlien
+  name: mess_alien_1
+- args:
+  - [1760, 2000]
+  - 300
+  classname: RunAndGunAlien
+  name: mess_alien_2
+- args:
+  - [2372, 1976]
+  - 300
+  classname: ChargingAlien
+  name: store_alien_1
+- args:
+  - [684, 612]
+  - 300
+  classname: ChargingAlien
+  name: room_one_alien
+- args:
+  - [1304, 760]
+  - 300
+  classname: ChargingAlien
+  name: room_two_alien
+- args:
+  - [2816, 1344]
+  - 300
+  classname: ChargingAlien
+  name: lift_alien_1
+- args:
+  - [2648, 1336]
+  - 300
+  classname: ChargingAlien
+  name: lift_alien_2
+- args:
+  - [2728, 1528]
+  - 300
+  classname: ChargingAlien
+  name: lift_alien_3
+game_objects:
+- args:
+  - [730, 936]
+  - null
+  - [719, 887]
+  - 85
+  classname: Door
+  name: room_one_enter
+- args:
+  - [1417, 1962]
+  - null
+  - [1364, 1938]
+  - 25
+  classname: Door
+  name: mess_exit
+- args:
+  - [1387, 1950]
+  - null
+  - [1436, 1972]
+  - 25
+  classname: Door
+  name: mess_enter
+- args:
+  - [1954, 1950]
+  - null
+  - [2017, 1922]
+  - -28
+  - mess_door_puzzle
+  classname: PuzzleDoor
+  name: store_enter
+- args:
+  - [1997, 1928]
+  - null
+  - [1927, 1963]
+  - -20
+  classname: Door
+  name: store_exit
+- args:
+  - [2495, 1623]
+  - null
+  - [2532, 1589]
+  - -45
+  classname: Door
+  name: lift_enter
+- args:
+  - [2515, 1602]
+  - null
+  - [2474, 1644]
+  - -45
+  classname: Door
+  name: lift_exit
+- args:
+  - [1414, 1375]
+  - null
+  - [1468, 1356]
+  - -22
+  classname: Door
+  name: room_three_enter
+- args:
+  - [1444, 1364]
+  - null
+  - [1386, 1387]
+  - -20
+  classname: Door
+  name: room_three_exit
+- args:
+  - [1123, 1034]
+  - null
+  - [1158, 986]
+  - -58
+  classname: Door
+  name: room_two_enter
+- args:
+  - [1145, 1004]
+  - null
+  - [1107, 1059]
+  - -56
+  classname: Door
+  name: room_two_exit
+- args:
+  - [724, 909]
+  - null
+  - [733, 964]
+  - 81
+  classname: Door
+  name: room_one_exit
+- args:
+  - [440, 572]
+  classname: collectable.Gun
+  name: gun
+- args:
+  - [982, 671]
+  - null
+  - [1041, 685]
+  - 10
+  classname: Door
+  name: room_one_two_enter
+- args:
+  - [1015, 677]
+  - null
+  - [956, 666]
+  - 12
+  classname: Door
+  name: room_one_two_exit
+- args:
+  - [68, 1623]
+  - hangar
+  - [2680, 1675]
+  - 0
+  classname: Door
+  name: to_cargo_bay
+- args:
+  - [1501, 978]
+  - null
+  - [1549, 1044]
+  - 47
+  classname: Door
+  name: room_two_three_enter
+- args:
+  - [1532, 1024]
+  - null
+  - [1485, 960]
+  - 50
+  classname: Door
+  name: room_two_three_exit
+- args:
+  - [784, 1868]
+  - - [784, 2218]
+    - [838, 2213]
+    - [892, 2200]
+    - [942, 2179]
+    - [989, 2151]
+    - [1031, 2115]
+    - [1067, 2073]
+    - [1095, 2026]
+    - [1116, 1976]
+    - [1129, 1922]
+    - [1134, 1868]
+    - [1129, 1814]
+    - [1116, 1760]
+    - [1095, 1710]
+    - [1067, 1663]
+    - [1031, 1621]
+    - [989, 1585]
+    - [942, 1557]
+    - [892, 1536]
+    - [838, 1523]
+    - [784, 1518]
+    - [730, 1523]
+    - [676, 1536]
+    - [626, 1557]
+    - [579, 1585]
+    - [537, 1621]
+    - [501, 1663]
+    - [473, 1710]
+    - [452, 1760]
+    - [439, 1814]
+    - [434, 1868]
+    - [439, 1922]
+    - [452, 1976]
+    - [473, 2026]
+    - [501, 2073]
+    - [537, 2115]
+    - [579, 2151]
+    - [626, 2179]
+    - [676, 2200]
+    - [730, 2213]
+    - [784, 2218]
+  classname: AcidFloor
+  name: swimming_pool
+- args:
+  - [1500, 1500]
+  - - [1414, 1473]
+    - [1342, 1390]
+    - [1259, 1318]
+    - [1165, 1261]
+    - [1064, 1219]
+    - [957, 1193]
+    - [848, 1184]
+    - [739, 1193]
+    - [632, 1219]
+    - [531, 1261]
+    - [437, 1318]
+    - [354, 1390]
+    - [282, 1473]
+    - [225, 1567]
+    - [183, 1668]
+    - [157, 1775]
+    - [148, 1884]
+    - [199, 2045]
+    - [271, 2128]
+    - [354, 2200]
+    - [448, 2257]
+    - [549, 2299]
+    - [656, 2325]
+    - [766, 2334]
+    - [875, 2325]
+    - [982, 2299]
+    - [1083, 2257]
+    - [1177, 2200]
+    - [1260, 2128]
+    - [1332, 2045]
+    - [1389, 1951]
+    - [1431, 1850]
+    - [1457, 1743]
+    - [1414, 1473]
+  classname: ForceWolfFloor
+  name: titan_light
+- args:
+  - [1844, 1260]
+  - keycard_black
+  classname: collectable.KeyCard
+  name: keycard_black
+- args:
+  - [220, 1720]
+  - Please wear goggles at all times while swimming.
+  classname: Note
+  name: wear_goggles
+- args:
+  - [1688, 2320]
+  - Please keep the mess tidy.
+  classname: Note
+  name: mess_tidy
+- args:
+  - [1940, 2048]
+  classname: FloorSwitch
+  name: mess_switch_1
+- args:
+  - [1860, 1892]
+  classname: FloorSwitch
+  name: mess_switch_2
+- args: [mess_switch_1, mess_switch_2]
+  classname: puzzle.StateLogicalAndPuzzler
+  name: mess_door_puzzle
+- args:
+  - [2950, 1193]
+  - cargo_bay
+  - [1760, 1265]
+  - -45
+  - hangar_door_puzzle
+  classname: PuzzleDoor
+  name: to_hangar
+- args: [lift_switch_1, lift_switch_2]
+  classname: puzzle.StateLogicalAndPuzzler
+  name: hangar_door_puzzle
+- args:
+  - [2900, 1576]
+  classname: FloorSwitch
+  name: lift_switch_1
+- args:
+  - [2556, 1220]
+  classname: FloorSwitch
+  name: lift_switch_2
+- args:
+  - [2596, 2248]
+  - - [2573, 1869]
+    - [2534, 1853]
+    - [2473, 1868]
+    - [2415, 1892]
+    - [2361, 1925]
+    - [2314, 1966]
+    - [2273, 2013]
+    - [2240, 2067]
+    - [2221, 2121]
+    - [2279, 2129]
+    - [2325, 2125]
+    - [2371, 2114]
+    - [2415, 2096]
+    - [2455, 2071]
+    - [2491, 2041]
+    - [2521, 2005]
+    - [2546, 1965]
+    - [2564, 1921]
+    - [2573, 1869]
+  classname: AcidFloor
+  name: store_room_sludge
+- args:
+  - [2436, 2040]
+  - 500
+  - 200
+  classname: GravityWell
+- args:
+  - [2136, 1636]
+  - Please keep the store locked at all times.
+  classname: Note
+  name: store_note
+- args:
+  - [766, 368]
+  - room_one_switch
+  classname: FloorLight
+  name: room_one_light_1
+- args:
+  - [684, 356]
+  - room_one_switch
+  classname: FloorLight
+  name: room_one_light_2
+- args:
+  - [602, 374]
+  - room_one_switch
+  classname: FloorLight
+  name: room_one_light_3
+- args:
+  - [584, 852]
+  classname: ToggleSwitch
+  name: room_one_switch
+- args:
+  - [1160, 548]
+  - room_two_switch
+  classname: FloorLight
+  name: room_two_light_1
+- args:
+  - [1240, 512]
+  - room_two_switch
+  classname: FloorLight
+  name: room_two_light_2
+- args:
+  - [1328, 500]
+  - room_two_switch
+  classname: FloorLight
+  name: room_two_light_3
+- args:
+  - [1304, 1024]
+  classname: ToggleSwitch
+  name: room_two_switch
+- args:
+  - [2668, 1428]
+  classname: SokoBox
+  name: lift_box_1
+- args:
+  - [2792, 1436]
+  classname: SokoBox
+  name: store_box_2
+- args:
+  - [2732, 1316]
+  classname: SokoBox
+  name: lift_box_3
+lines: []
+music: POL-against-the-system-short.ogg
+polygons:
+  1:
+  - [766, 2334]
+  - [875, 2325]
+  - [982, 2299]
+  - [1083, 2257]
+  - [1177, 2200]
+  - [1260, 2128]
+  - [1332, 2045]
+  - [1389, 1951]
+  - [1431, 1850]
+  - [1457, 1743]
+  - [1466, 1634]
+  - [1457, 1524]
+  - [1431, 1417]
+  - [1389, 1316]
+  - [1332, 1222]
+  - [1260, 1139]
+  - [1177, 1067]
+  - [1083, 1010]
+  - [982, 968]
+  - [875, 942]
+  - [766, 934]
+  - [656, 942]
+  - [549, 968]
+  - [448, 1010]
+  - [354, 1067]
+  - [271, 1139]
+  - [199, 1222]
+  - [142, 1316]
+  - [100, 1417]
+  - [74, 1524]
+  - [66, 1633]
+  - [74, 1743]
+  - [100, 1850]
+  - [142, 1951]
+  - [199, 2045]
+  - [271, 2128]
+  - [354, 2200]
+  - [448, 2257]
+  - [549, 2299]
+  - [656, 2325]
+  - [766, 2334]
+  2:
+  - [1688, 2388]
+  - [1734, 2384]
+  - [1780, 2373]
+  - [1824, 2355]
+  - [1864, 2330]
+  - [1900, 2300]
+  - [1930, 2264]
+  - [1955, 2224]
+  - [1973, 2180]
+  - [1984, 2134]
+  - [1988, 2088]
+  - [1984, 2041]
+  - [1973, 1995]
+  - [1955, 1951]
+  - [1930, 1911]
+  - [1900, 1875]
+  - [1864, 1845]
+  - [1824, 1820]
+  - [1780, 1802]
+  - [1734, 1791]
+  - [1688, 1788]
+  - [1641, 1791]
+  - [1595, 1802]
+  - [1551, 1820]
+  - [1511, 1845]
+  - [1475, 1875]
+  - [1445, 1911]
+  - [1420, 1951]
+  - [1402, 1995]
+  - [1391, 2041]
+  - [1388, 2087]
+  - [1391, 2134]
+  - [1402, 2180]
+  - [1420, 2224]
+  - [1445, 2264]
+  - [1475, 2300]
+  - [1511, 2330]
+  - [1551, 2355]
+  - [1595, 2373]
+  - [1641, 2384]
+  - [1688, 2388]
+  3:
+  - [2279, 2129]
+  - [2325, 2125]
+  - [2371, 2114]
+  - [2415, 2096]
+  - [2455, 2071]
+  - [2491, 2041]
+  - [2521, 2005]
+  - [2546, 1965]
+  - [2564, 1921]
+  - [2575, 1875]
+  - [2579, 1829]
+  - [2575, 1782]
+  - [2564, 1736]
+  - [2546, 1692]
+  - [2521, 1652]
+  - [2491, 1616]
+  - [2455, 1586]
+  - [2415, 1561]
+  - [2371, 1543]
+  - [2325, 1532]
+  - [2279, 1529]
+  - [2232, 1532]
+  - [2186, 1543]
+  - [2142, 1561]
+  - [2102, 1586]
+  - [2066, 1616]
+  - [2036, 1652]
+  - [2011, 1692]
+  - [1993, 1736]
+  - [1982, 1782]
+  - [1979, 1828]
+  - [1982, 1875]
+  - [1993, 1921]
+  - [2011, 1965]
+  - [2036, 2005]
+  - [2066, 2041]
+  - [2102, 2071]
+  - [2142, 2096]
+  - [2186, 2114]
+  - [2232, 2125]
+  - [2279, 2129]
+  4:
+  - [2733, 1699]
+  - [2779, 1695]
+  - [2825, 1684]
+  - [2869, 1666]
+  - [2909, 1641]
+  - [2945, 1611]
+  - [2975, 1575]
+  - [3000, 1535]
+  - [3018, 1491]
+  - [3029, 1445]
+  - [3033, 1399]
+  - [3029, 1352]
+  - [3018, 1306]
+  - [3000, 1262]
+  - [2975, 1222]
+  - [2945, 1186]
+  - [2909, 1156]
+  - [2869, 1131]
+  - [2825, 1113]
+  - [2779, 1102]
+  - [2733, 1099]
+  - [2686, 1102]
+  - [2640, 1113]
+  - [2596, 1131]
+  - [2556, 1156]
+  - [2520, 1186]
+  - [2490, 1222]
+  - [2465, 1262]
+  - [2447, 1306]
+  - [2436, 1352]
+  - [2433, 1398]
+  - [2436, 1445]
+  - [2447, 1491]
+  - [2465, 1535]
+  - [2490, 1575]
+  - [2520, 1611]
+  - [2556, 1641]
+  - [2596, 1666]
+  - [2640, 1684]
+  - [2686, 1695]
+  - [2733, 1699]
+  5:
+  - [1722, 1554]
+  - [1768, 1550]
+  - [1814, 1539]
+  - [1858, 1521]
+  - [1898, 1496]
+  - [1934, 1466]
+  - [1964, 1430]
+  - [1989, 1390]
+  - [2007, 1346]
+  - [2018, 1300]
+  - [2022, 1254]
+  - [2018, 1207]
+  - [2007, 1161]
+  - [1989, 1117]
+  - [1964, 1077]
+  - [1934, 1041]
+  - [1898, 1011]
+  - [1858, 986]
+  - [1814, 968]
+  - [1768, 957]
+  - [1722, 954]
+  - [1675, 957]
+  - [1629, 968]
+  - [1585, 986]
+  - [1545, 1011]
+  - [1509, 1041]
+  - [1479, 1077]
+  - [1454, 1117]
+  - [1436, 1161]
+  - [1425, 1207]
+  - [1422, 1253]
+  - [1425, 1300]
+  - [1436, 1346]
+  - [1454, 1390]
+  - [1479, 1430]
+  - [1509, 1466]
+  - [1545, 1496]
+  - [1585, 1521]
+  - [1629, 1539]
+  - [1675, 1550]
+  - [1722, 1554]
+  6:
+  - [688, 913]
+  - [734, 909]
+  - [780, 898]
+  - [824, 880]
+  - [864, 855]
+  - [900, 825]
+  - [930, 789]
+  - [955, 749]
+  - [973, 705]
+  - [984, 659]
+  - [988, 613]
+  - [984, 566]
+  - [973, 520]
+  - [955, 476]
+  - [930, 436]
+  - [900, 400]
+  - [864, 370]
+  - [824, 345]
+  - [780, 327]
+  - [734, 316]
+  - [688, 313]
+  - [641, 316]
+  - [595, 327]
+  - [551, 345]
+  - [511, 370]
+  - [475, 400]
+  - [445, 436]
+  - [420, 476]
+  - [402, 520]
+  - [391, 566]
+  - [388, 612]
+  - [391, 659]
+  - [402, 705]
+  - [420, 749]
+  - [445, 789]
+  - [475, 825]
+  - [511, 855]
+  - [551, 880]
+  - [595, 898]
+  - [641, 909]
+  - [688, 913]
+  7:
+  - [1304, 1054]
+  - [1350, 1050]
+  - [1396, 1039]
+  - [1440, 1021]
+  - [1480, 996]
+  - [1516, 966]
+  - [1546, 930]
+  - [1571, 890]
+  - [1589, 846]
+  - [1600, 800]
+  - [1604, 754]
+  - [1600, 707]
+  - [1589, 661]
+  - [1571, 617]
+  - [1546, 577]
+  - [1516, 541]
+  - [1480, 511]
+  - [1440, 486]
+  - [1396, 468]
+  - [1350, 457]
+  - [1304, 454]
+  - [1257, 457]
+  - [1211, 468]
+  - [1167, 486]
+  - [1127, 511]
+  - [1091, 541]
+  - [1061, 577]
+  - [1036, 617]
+  - [1018, 661]
+  - [1007, 707]
+  - [1004, 753]
+  - [1007, 800]
+  - [1018, 846]
+  - [1036, 890]
+  - [1061, 930]
+  - [1091, 966]
+  - [1127, 996]
+  - [1167, 1021]
+  - [1211, 1039]
+  - [1257, 1050]
+  - [1304, 1054]
+size: [3600, 2400]

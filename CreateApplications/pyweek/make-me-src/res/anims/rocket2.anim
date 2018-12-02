@@ -1,0 +1,38 @@
+anim RocketIdle
+duration 0.300000
+anim_bbox -14 -20 19 18
+image rocket2-r1.png
+image rocket2-r2.png
+image rocket2-r3.png
+image rocket2-r4.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0 0 0
+image_ty 0 0 0 0
+image_vis 1 1 0 0
+frame 0.331746
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0 0 0
+image_ty 0 0 0 0
+image_vis 1 0 1 0
+frame 0.677778
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0 0 0
+image_ty 0 0 0 0
+image_vis 1 0 0 1
+anchor 8 26 rocket2-r4.png
+anchor 24 27 rocket2-r1.png
+anchor 8 26 rocket2-r2.png
+anchor 6 26 rocket2-r3.png

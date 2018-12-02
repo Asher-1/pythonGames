@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="%(width)d" height="%(height)d" tilewidth="%(cellwidth)d" tileheight="%(cellheight)d">
+ <tileset firstgid="1" name="generic-tileset" tilewidth="32" tileheight="32">
+  <image source="../graphics/generic-tileset.png" width="128" height="96"/>
+ </tileset>
+ <tileset firstgid="13" name="city-tiles" tilewidth="32" tileheight="32">
+  <image source="../graphics/city-tiles.png" width="256" height="288"/>
+ </tileset>
+%(layers)s
+ <objectgroup name="All Missions" width="%(width)d" height="%(height)d">
+  <properties>
+   <property name="AllMissions" value="True"/>
+  </properties>
+  <object name="start" type="Location" gid="5" x="50" y="50"/>
+  <object name="person" type="Actor" gid="6" x="50" y="100">
+   <properties>
+    <property name="cls" value="BombShopOwner"/>
+    <property name="look_direction" value="-90"/>
+    <property name="look_movement" value="1"/>
+    <property name="look_pause" value="0.5"/>
+    <property name="look_range" value="45"/>
+    <property name="motion" value="station"/>
+    <property name="sprite" value="talker"/>
+    <property name="face_sprite_dna" value="1,1,1"/>
+    <property name="conversation_node" value="initial-conversation"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Doors" width="%(width)d" height="%(height)d">
+  <object name="To Main City" type="Door" x="100" y="50" width="100" height="24">
+   <properties>
+    <property name="leads_to" value="world-6"/>
+    <property name="location" value="meeting-room-entrance"/>
+   </properties>
+  </object>
+  <object name="entrance" type="Location" gid="7" x="100" y="100"/>
+ </objectgroup>
+ <objectgroup name="Lights" width="%(width)d" height="%(height)d">
+  <properties>
+   <property name="AllMissions" value="True"/>
+   <property name="type" value="lighting"/>
+  </properties>
+  <object name="l" type="Location" gid="3" x="150" y="50">
+   <properties>
+    <property name="colour" value="(255, 255, 0)"/>
+    <property name="distance" value="100"/>
+    <property name="strength" value="255"/>
+    <property name="type" value="light"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Day Lights" width="%(width)d" height="%(height)d">
+  <properties>
+   <property name="AllMissions" value="True"/>
+   <property name="type" value="lighting"/>
+  </properties>
+  <object name="l" type="Location" gid="3" x="150" y="10">
+   <properties>
+    <property name="colour" value="(255, 255, 0)"/>
+    <property name="distance" value="100"/>
+    <property name="strength" value="255"/>
+    <property name="type" value="light"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

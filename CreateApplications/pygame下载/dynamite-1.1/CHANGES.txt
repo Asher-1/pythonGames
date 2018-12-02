@@ -1,0 +1,47 @@
+Change Log
+==========
+
+1.1: 2005-09-15
+---------------
+
+Summary:
+- improved graphics and engine
+- 2 new gigantic levels
+- per-level high scores
+- numerous interface improvements
+- minor bug fixes
+- see CHANGES.txt for full details
+
+Graphics:
+- adjusted isotiles.tga with slightly better cursor graphics 
+- spell check pilars to pillars, etc
+- blender pilars, floors
+- new title screen explosion
+
+Features:
+- added per level high scores and high score screen, etc
+
+Levels:
+- added level 9, 10
+
+User Interface:
+- add optional keyboard controls -- numeric keypad to move guy, ctrl to place/detonate dynamite
+- make exiting the window easier
+- add "use left and right arrows to change level" to the title screen
+- make scrolling only-unpeek if the player is walking the other direction
+- use mouse to peek
+- make main menus and everything work with mouse
+- music on/off with F2
+- pause music during pause
+- set the application title
+- make icon
+
+Bugs:
+- replaced all "data/gfx/.." style paths with proper os.path.join() calls
+- added main.py and a dynamite script for easy startup
+- revamped isovid.py to be about 4x the frame rate it was, and to work in larger levels
+- extended the music
+
+Packaging:
+- make setup.py include sdist methods, and work nice with py2exe, etc.
+- windows packaging

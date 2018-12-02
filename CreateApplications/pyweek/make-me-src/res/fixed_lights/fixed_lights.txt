@@ -1,0 +1,11 @@
+1015 887 64 64 lamp.png
+2554 1392 64 64 lamp.png
+3055 1541 64 64 lamp.png
+3879 1600 64 64 lamp.png
+3078 929 64 64 lamp.png
+751 1709 64 64 lamp.png
+1589 1479 64 64 lamp.png
+4206 2259 64 64 lamp.png
+2980 2067 64 64 lamp.png
+1574 2085 64 64 lamp.png
+-1145 -131 64 64 lamp.png

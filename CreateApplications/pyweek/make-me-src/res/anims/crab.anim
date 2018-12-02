@@ -1,0 +1,14 @@
+anim CrabIdle
+duration 1.000000
+anim_bbox -28 4 20 36
+image crab-01.png
+frame 0.000000
+tx 1
+ty -3
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anchor 52 4 crab-01.png

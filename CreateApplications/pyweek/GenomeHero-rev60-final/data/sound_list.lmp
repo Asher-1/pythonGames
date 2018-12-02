@@ -1,0 +1,13 @@
+{
+"sounds": { "lose_streak": "./data/lose_streak.mp3",
+            "miss": "./data/miss.mp3",
+            "hit": "./data/hit.mp3" },
+
+"music": {  "intro": "./data/track02.mp3",
+            "fast_groove": "./data/track04.mp3",
+            "chill": "./data/track05.mp3",
+            "easy": "./data/track06.mp3",
+            "hard": "./data/track07.mp3"
+            }
+            
+}

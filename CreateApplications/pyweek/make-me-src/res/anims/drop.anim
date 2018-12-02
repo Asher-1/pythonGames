@@ -1,0 +1,14 @@
+anim DropIdle
+duration 1.000000
+anim_bbox -5 0 5 18
+image drop-drop.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anchor 5 1 drop-drop.png

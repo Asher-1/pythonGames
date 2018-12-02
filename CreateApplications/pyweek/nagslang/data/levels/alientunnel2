@@ -1,0 +1,96 @@
+base_tile: tiles/alien_tile.png
+enemies:
+- args:
+  - [400, 800]
+  - 300
+  classname: ChargingAlien
+  name: alien_2_1
+- args:
+  - [600, 1000]
+  - 300
+  classname: ChargingAlien
+  name: alien_2_2
+- args:
+  - [800, 1000]
+  - 300
+  classname: ChargingAlien
+  name: alien_2_3
+- args:
+  - [1000, 800]
+  - 300
+  classname: ChargingAlien
+  name: alien_2_4
+- args:
+  - [1000, 600]
+  - 300
+  classname: ChargingAlien
+  name: alien_2_5
+- args:
+  - [800, 400]
+  - 300
+  classname: ChargingAlien
+  name: alien_2_6
+- args:
+  - [600, 400]
+  - 300
+  classname: ChargingAlien
+  name: alien_2_7
+- args:
+  - [400, 600]
+  - 300
+  classname: ChargingAlien
+  name: alien_2_8
+game_objects:
+- args:
+  - [350, 1050]
+  - alientunnel1
+  - [375, 375]
+  - 135
+  classname: Door
+  name: 2to1
+- args:
+  - [350, 350]
+  - alientunnel3
+  - [1025, 1025]
+  - 45
+  classname: Door
+  name: 2to3
+- args:
+  - [500, 900]
+  - - [500, 900]
+    - [900, 900]
+    - [900, 500]
+    - [500, 500]
+  classname: ForceWolfFloor
+  name: moonlight_2
+- args:
+  - [1150, 700]
+  - keycard_white
+  classname: collectable.KeyCard
+  name: keycard_white
+- args:
+  - [800, 250]
+  classname: ToggleSwitch
+  name: door_switch
+- args:
+  - [1100, 800]
+  - [1100, 1000]
+  - door_switch
+  classname: Hatch
+  name: switch_hatch
+lines:
+- - [1100, 800]
+  - [1100, 400]
+music: POL-future-war-short.ogg
+polygons:
+  1:
+  - [500, 1200]
+  - [900, 1200]
+  - [1200, 900]
+  - [1200, 500]
+  - [900, 200]
+  - [500, 200]
+  - [200, 500]
+  - [200, 900]
+  - [500, 1200]
+size: [1400, 1400]

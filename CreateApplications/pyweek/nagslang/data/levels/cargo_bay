@@ -1,0 +1,236 @@
+base_tile: tiles/floor.png
+enemies: []
+game_objects:
+- args:
+  - [470, 1265]
+  - hangar
+  - [2855, 1405]
+  - 0
+  classname: Door
+- args:
+  - [530, 1309]
+  - 'To HANGAR'
+  classname: Note
+- args:
+  - [1145, 1420]
+  - cargo_bay
+  - [1145, 1580]
+  - 90
+  classname: Door
+- args:
+  - [1145, 1510]
+  - cargo_bay
+  - [1145, 1350]
+  - 90
+  classname: Door
+- args:
+  - [1500, 1500]
+  classname: FloorSwitch
+  name: light_switch_1
+- args:
+  - [1675, 1500]
+  classname: FloorSwitch
+  name: light_switch_2
+- args:
+  - [1500, 1645]
+  classname: FloorSwitch
+  name: light_switch_3
+- args:
+  - [1675, 1645]
+  classname: FloorSwitch
+  name: light_switch_4
+- args:
+  - [1500, 1790]
+  classname: FloorSwitch
+  name: light_switch_5
+- args:
+  - [1675, 1790]
+  classname: FloorSwitch
+  name: light_switch_6
+- args:
+  - [337, 1643]
+  classname: SokoBox
+- args:
+  - [607, 1643]
+  classname: SokoBox
+- args:
+  - [607, 1913]
+  classname: SokoBox
+- args:
+  - [607, 2093]
+  classname: SokoBox
+- args:
+  - [789, 2003]
+  classname: SokoBox
+- args:
+  - [789, 1913]
+  classname: SokoBox
+- args:
+  - [438, 980]
+  classname: Box
+- args:
+  - [1450, 1220]
+  - all_box_switches
+  classname: FloorLight
+  name: light1
+- args:
+  - [1295, 1165]
+  classname: FloorSwitch
+  name: light_switch_7
+- args:
+  - [1550, 1220]
+  - light_switch_7
+  classname: FloorLight
+  name: light2
+- args: [light_switch_1, light_switch_2, light_switch_3, light_switch_4, light_switch_5, light_switch_6]
+  classname: puzzle.StateLogicalAndPuzzler
+  name: all_box_switches
+- args: [all_box_switches, light_switch_7]
+  classname: puzzle.StateLogicalAndPuzzler
+  name: all_switches
+- args:
+  - [1500, 1200]
+  - cargo_bay
+  - [1500, 1100]
+  - 90
+  - all_switches
+  classname: PuzzleDoor
+  name: switch_door_to_maintenance_office
+- args:
+  - [1500, 1150]
+  - cargo_bay
+  - [1500, 1250]
+  - 90
+  classname: Door
+- args:
+  - [1500, 1000]
+  - keycard_blue
+  classname: collectable.KeyCard
+  name: keycard_blue
+- args:
+  - [1800, 1265]
+  - crew
+  - [2935, 1205]
+  - 0
+  classname: Door
+- args:
+  - [1750, 1309]
+  - 'To CREW QUARTERS: don't forget to return all safety gear to the lockers'
+  classname: Note
+- args:
+  - [800, 2200]
+  - 'This place always reminds me of something... Oh, I must buy milk.'
+  classname: Note
+lines: []
+music: POL-tekdrome-short.ogg
+polygons:
+  1:
+  - [614, 1200]
+  - [902, 1200]
+  - [902, 1200]
+  - [1190, 1200]
+  - [1190, 192]
+  - [1154, 156]
+  - [1118, 192]
+  - [1118, 1056]
+  - [1046, 1128]
+  - [974, 1128]
+  - [902, 1056]
+  - [902, 192]
+  - [866, 156]
+  - [830, 192]
+  - [830, 1056]
+  - [758, 1128]
+  - [686, 1128]
+  - [614, 1056]
+  - [614, 192]
+  - [578, 156]
+  - [542, 192]
+  - [542, 1056]
+  - [470, 1128]
+  - [398, 1128]
+  - [326, 1056]
+  - [326, 912]
+  - [398, 840]
+  - [470, 840]
+  - [470, 120]
+  - [542, 48]
+  - [614, 48]
+  - [686, 120]
+  - [686, 984]
+  - [722, 1020]
+  - [758, 984]
+  - [758, 120]
+  - [830, 48]
+  - [902, 48]
+  - [974, 120]
+  - [974, 984]
+  - [1010, 1020]
+  - [1046, 984]
+  - [1046, 120]
+  - [1118, 48]
+  - [1190, 48]
+  - [1262, 120]
+  - [1262, 1128]
+  - [1334, 1128]
+  - [1334, 1200]
+  - [1800, 1200]
+  - [1800, 1330]
+  - [1190, 1330]
+  - [1190, 1420]
+  - [1100, 1420]
+  - [1100, 1330]
+  - [470, 1330]
+  - [470, 1200]
+  - [614, 1200]
+  2:
+  - [200, 1600]
+  - [560, 1600]
+  - [560, 1420]
+  - [1010, 1420]
+  - [1010, 1600]
+  - [1100, 1600]
+  - [1100, 1510]
+  - [1190, 1510]
+  - [1190, 1600]
+  - [1370, 1600]
+  - [1370, 1420]
+  - [1730, 1420]
+  - [1730, 1870]
+  - [1370, 1870]
+  - [1370, 1690]
+  - [920, 1690]
+  - [920, 1960]
+  - [830, 1960]
+  - [830, 2230]
+  - [560, 2230]
+  - [560, 1960]
+  - [380, 1960]
+  - [380, 1780]
+  - [200, 1780]
+  - [200, 1600]
+  3:
+  - [470, 1690]
+  - [560, 1690]
+  - [560, 1870]
+  - [470, 1870]
+  - [470, 1690]
+  4:
+  - [650, 1870]
+  - [830, 1870]
+  - [830, 1690]
+  - [650, 1690]
+  - [650, 1870]
+  5:
+  - [920, 1600]
+  - [650, 1600]
+  - [650, 1510]
+  - [920, 1510]
+  - [920, 1600]
+  6:
+  - [1400, 1150]
+  - [1600, 1150]
+  - [1600, 910]
+  - [1400, 910]
+  - [1400, 1150]
+size: [2400, 2410]

@@ -1,0 +1,73 @@
+@mapscript()
+def script(g):
+    if flag(g, "catbossfight"):
+        yield dialogue("Curse you and all your kind!", "Cat Lady", 'left')
+        yield dialogue("Well, I hope we won't be seeing her again.", "Heinrich", 'left')
+        yield dialogue("Lets go and hunt that dragon!")
+        yield dialogue("Assistant, stay here and guard the tower.")
+        yield dialogue("Whatever you say, master.", "Assistant", "right")
+        yield endcutscene()
+        g.reset_inventory()
+        yield changemap("act2", "outsidetower")
+    elif first(g, "tower2scene1"):
+        setportrait('Becka', 'left')
+        yield dialogue("So the committee don't want to laud me for my spectacular advances in the field of chimera creation?", "Heinrich", 'right')
+        yield dialogue("Heehee! You're kidding, right?", 'Becka', 'left')
+        yield dialogue("Sewing bits of dead animals together and making them walk around? That stuff is so last-century.")
+        yield dialogue("I could build a robot that would put your chimeras to shame in ten minutes.")
+        yield dialogue("Perhaps twelve, if I wrote my name on it in nice letters.")
+        yield dialogue("What are bits of goats and snakes good for, anyway?")
+        yield dialogue("My research is not about bits of goats and snakes!", "Heinrich#point", 'right')
+        setportrait("Heinrich", 'right')
+        yield dialogue("It's not? Because I have to say, it looks that way to me.", "Becka", 'left')
+        yield dialogue("Not at all! In fact, I was just about to build something much better!", "Heinrich", 'right')
+        yield dialogue("I'm going to build a ...")
+        yield dialogue("A dragon!", "Heinrich#laugh", 'right')
+        setportrait('Heinrich', 'right')
+        yield dialogue("You're going to build a dragon? Spectacular!", "Becka", 'left')
+        yield dialogue("Far be it from me to remind you that you're going to need a dead dragon to use as raw material, then.", "Becka", 'left')
+        yield dialogue("Stop it!", "Heinrich", 'right')
+        yield dialogue("I'll kill a dragon and use it to build the greatest chimera ever!", "Heinrich", 'right')
+        yield dialogue("Well, supposedly there's a dragon which lives in the volcano to the west.", 'Becka', 'left')
+        yield dialogue("Shall we go and hunt it down?")
+        yield dialogue("Absolutely! And then you'll see what my chimeras are capable of!", "Heinrich", 'right')
+        yield dialogue("Just let me dispose of all this stuff I'm carrying around.", "Heinrich", 'right')
+        yield dialogue("I'll add the good bits to my monsters and leave the rest behind when we head out.", "Heinrich", 'right')
+        yield endcutscene()
+    elif g.current_world_node == "centre": # emerged from workbench
+        yield dialogue("That should be everything.", "Heinrich", "left")
+        yield dialogue("I'll leave the excess monster parts behind me when I go.", "Heinrich", "left")
+        yield dialogue("... sigh ...")
+        yield dialogue("... why am I hunting a dragon, again?", "Heinrich", "left")
+        yield endcutscene()   
+
+@locscript("igor")
+def script(g):
+    if first(g, "tower2igor"):
+        setportrait('Heinrich', 'left')
+        yield dialogue("Master, she mocks you so.", "Assistant", "right")
+        yield dialogue("Quiet, you.", "Heinrich#point", "left")
+        yield endcutscene()
+
+@locscript("workbench")
+def script(g):
+    setflag(g, "tower2useworkbench")
+    yield enterlab("tower2", "centre")
+    
+@locscript("exit")
+def script(g):
+    if flag(g, "tower2useworkbench"):
+        setportrait('Heinrich', 'right')
+        yield dialogue("Are we ready to go, then?", 'Becka', 'left')
+        yield dialogue("Absolutely!", "Heinrich", 'right')
+        yield dialogue("Wait, is that someone at the door?")
+        yield dialogue("Found you!", "Cat Lady", 'left')
+        yield dialogue("You and your sewn-together monsters gave me a brilliant idea!")
+        yield dialogue("Everything is better with cats!")
+        yield dialogue("Prepare to die!")        
+        yield endcutscene()
+        setflag(g, "catbossfight")
+        yield battle(Team([monsters.goatlion]), [LionHead, LionAnterior])
+    else:
+        yield dialogue("I should at least head up to my workbench and make sure there's nothing I want to add to any of my chimeras.")
+        yield endcutscene()

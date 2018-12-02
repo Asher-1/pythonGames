@@ -1,0 +1,35 @@
+grass.png
+    solid 1
+s_concrete1.png
+    solid 0
+s_concrete2.png
+    solid 0
+s_dirt1.png
+s_dirt2.png
+s_sand1.png
+s_sand2.png
+S_sewerbottom.png
+s_sewerfloor.png
+S_sewertop.png
+s_water1.png
+s_water2.png
+t_waterwave.png
+t_grass.png
+w_rust1.png
+    breakable 1
+w_rust2.png
+    breakable 1
+w_rust3.png
+    breakable 1
+w_rust4.png
+    breakable 1
+w_sewer1.png
+w_sewer2.png
+w_sewer3.png
+s_cloud1.png
+s_cloud2.png
+s_cloud3.png
+s_cave1.png
+s_cave2.png
+s_cave3.png
+    solid 0

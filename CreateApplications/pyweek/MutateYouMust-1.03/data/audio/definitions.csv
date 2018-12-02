@@ -1,0 +1,83 @@
+"ID";"Description";"Volume"
+;;
+"tower_bunker_shoot";"sound when bunker shoots";"0.15"
+"tower_tank_shoot_01";"sound when tank shoots";"0.15"
+"tower_tank_shoot_02";"sound when tank shoots";"0.15"
+"tower_tank_shoot_03";"sound when tank shoots";"0.15"
+"tower_tank_shoot_04";"sound when tank shoots";"0.15"
+"tower_tank_hit_01";"sound on tank shot impact";"0.15"
+"creep_orphan_spawn";;1
+"creep_orphan_walk";;1
+"creep_orphan_die";;1
+"creep_drunk_spawn";;1
+"creep_drunk_walk";;1
+"creep_drunk_die";;1
+"mutate_music";"musicloop";"0.2"
+"building_fastfood_01";"sound when unit is mutated";"0.7"
+"building_fastfood_02";"sound when unit is mutated";"0.7"
+"building_fastfood_03";"sound when unit is mutated";"0.7"
+"building_fastfood_04";"sound when unit is mutated";"0.7"
+"building_fastfood_05";"sound when unit is mutated";"0.7"
+"building_fastfood_06";"sound when unit is mutated";"0.7"
+"building_fastfood_07";"sound when unit is mutated";"0.7"
+"building_fastfood_08";"sound when unit is mutated";"0.7"
+"building_fastfood_09";"sound when unit is mutated";"0.7"
+"building_fastfood_10";"sound when unit is mutated";"0.7"
+"building_fastfood_11";"sound when unit is mutated";"0.7"
+"building_fastfood_12";"sound when unit is mutated";"0.7"
+"building_fastfood_13";"sound when unit is mutated";"0.7"
+"building_beergarden_01";"sound when unit is mutated";"0.7"
+"building_beergarden_02";"sound when unit is mutated";"0.7"
+"building_beergarden_03";"sound when unit is mutated";"0.7"
+"building_beergarden_04";"sound when unit is mutated";"0.7"
+"building_beergarden_05";"sound when unit is mutated";"0.7"
+"building_beergarden_06";"sound when unit is mutated";"0.7"
+"building_beergarden_07";"sound when unit is mutated";"0.7"
+"building_beergarden_08";"sound when unit is mutated";"0.7"
+"building_beergarden_09";"sound when unit is mutated";"0.7"
+"building_orphanage_01";"sound when unit is mutated";"0.7"
+"building_orphanage_02";"sound when unit is mutated";"0.7"
+"building_orphanage_03";"sound when unit is mutated";"0.7"
+"building_orphanage_04";"sound when unit is mutated";"0.7"
+"building_orphanage_05";"sound when unit is mutated";"0.7"
+"building_orphanage_06";"sound when unit is mutated";"0.7"
+"building_orphanage_07";"sound when unit is mutated";"0.7"
+"building_orphanage_08";"sound when unit is mutated";"0.7"
+"building_orphanage_09";"sound when unit is mutated";"0.7"
+"building_orphanage_10";"sound when unit is mutated";"0.7"
+"building_orphanage_11";"sound when unit is mutated";"0.7"
+"building_orphanage_12";"sound when unit is mutated";"0.7"
+"building_orphanage_13";"sound when unit is mutated";"0.7"
+"building_orphanage_14";"sound when unit is mutated";"0.7"
+"building_orphanage_01";"sound when unit is mutated";"0.7"
+"building_orphanage_02";"sound when unit is mutated";"0.7"
+"building_orphanage_03";"sound when unit is mutated";"0.7"
+"building_orphanage_04";"sound when unit is mutated";"0.7"
+"building_orphanage_05";"sound when unit is mutated";"0.7"
+"building_orphanage_06";"sound when unit is mutated";"0.7"
+"building_orphanage_07";"sound when unit is mutated";"0.7"
+"building_orphanage_08";"sound when unit is mutated";"0.7"
+"building_orphanage_09";"sound when unit is mutated";"0.7"
+"building_orphanage_10";"sound when unit is mutated";"0.7"
+"building_orphanage_11";"sound when unit is mutated";"0.7"
+"building_orphanage_12";"sound when unit is mutated";"0.7"
+"building_orphanage_13";"sound when unit is mutated";"0.7"
+"building_orphanage_14";"sound when unit is mutated";"0.7"
+"win";"sound when game is won";"0.8"
+"lose";"sound when game is lost";"0.8"
+"click_01";"sound when clicking in menu";"0.8"
+"click_02";"sound when clicking in menu";"0.8"
+"click_03";"sound when clicking in menu";"0.8"
+"fatso_eat_01";"sound when eating an orphan";1
+"fatso_eat_02";"sound when eating an orphan";1
+"fatso_eat_03";"sound when eating an orphan";1
+"fatso_eat_04";"sound when eating an orphan";1
+"fatso_eat_05";"sound when eating an orphan";1
+"drunk_drink_01";"sound when slurping an orphan";1
+"drunk_drink_02";"sound when slurping an orphan";1
+"drunk_drink_03";"sound when slurping an orphan";1
+"fatso_die";"sound when fatso dies";1
+"drunk_die";"sound when drunk dies";1
+"orphan_die";"sound when orphan dies";1
+"zonk";"sound when fail";"0.8"
+"tower_artillery_shoot";"sound when artillery shoots";"0.15"

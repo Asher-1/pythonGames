@@ -1,0 +1,118 @@
+06/03/2018-v0.0.5-------------------------------------------------------
+-added throwable grenade
+-improved throwable animations
+-added gem amethyst
+-added gem ruby
+-added gem topaz
+-added gem sapphire
+-added gem diamond
+-added magic weapon amethyst staff
+-added magic weapon ruby staff
+-added magic weapon topaz staff
+-added magic weapon sapphire staff
+-added magic weapon diamond staff
+-added block lead ore
+-added item lead ore
+-added item lead bar
+-added block iron anvil
+-added weapon copper bow
+-added weapon iron bow
+-added weapon lead bow
+-added weapon silver bow
+-added weapon gold bow
+-added block diamond ore
+-added block topaz ore
+-added block sapphire ore
+-added block ruby ore
+-added block amethyst ore
+-added hp damage numbers
+-added critical hits
+-added coin slots and ammo slots in inventory
+-reduced crafting code
+-added death/respawning mechanic
+-removed Brinefreak
+03-04-05/03/2018-v0.0.4-------------------------------------------------
+-added sponge
+-fixed index error crash when generating terrain
+-adjusted chest room spawn rate
+-updated most item textures
+-added functionality for throwing knife and shuriken
+-added wooden bow
+-added wooden arrow
+-added hp bar
+-added functionality for health potions
+-added loot block pot
+-added Brinefreak
+-removed Brinefreak
+03/03/2018-v0.0.3-------------------------------------------------------
+-added item iron pickaxe
+-added item iron axe
+-added item iron hammer
+-added item iron sword
+-added item silver pickaxe
+-added item silver axe
+-added item silver hammer
+-added item silver sword
+-added item gold pickaxe
+-added item gold axe
+-added item gold hammer
+-added item gold sword
+-improved crafting
+-added chestRooms
+-added item acorn
+-added item lesser healing potion
+-added item greater healing potion
+-added throwable item shuriken
+-added throwable item throwing knife
+-added gold chest
+-improved chest loot system
+-added NPC bird
+-removed Brinefreak
+02/03/2018-v0.0.2-------------------------------------------------------
+-added crafting
+-added item gold bar
+-added item silver bar
+-added item copper bar
+-added item copper
+-added block copper ore
+-added item wood platform
+-added cobble furnace
+-added crafting table
+-added cobble backwall
+-added wood backwall
+-added pop up text when items are picked up
+-added inventory hover text
+-added chests
+-removed Brinefreak
+01/03/2018-v0.0.1-------------------------------------------------------
+-code cleaned up
+-world sizes added
+-added silver ore
+-added silver block
+-added inventory
+28/02/2018-v0.0.1-------------------------------------------------------
+-added item copperAxe
+-added item copperPickaxe
+-added item copperHammer
+-added block placement
+-added player animation
+-added world item objects
+-added experimental lighting
+-added tree cutting
+-added back block removal
+-added hotbar
+-removed Brinefreak
+27/02/2018-v0.0.1-------------------------------------------------------
+-added block cobble
+-added block dirt
+-added block stone
+-added block sand
+-added perlin noise world gen
+-added block trees
+-added item coal
+-added item iron
+-added item gold
+-added block coal ore
+-added block iron ore
+-added block gold ore
+-added player collisions

@@ -1,0 +1,168 @@
+base_tile: tiles/floor.png
+enemies:
+- args:
+  - [100, 100]
+  classname: Sheep
+- args:
+  - [700, 500]
+  classname: Sheep
+game_objects:
+- args:
+  - [725, 300]
+  - finale
+  - [715, 2085]
+  - 180
+  classname: Door
+- args:
+  - [300, 125]
+  - Case closed! Time to head for home.
+  classname: Note
+- args:
+  - [300, 475]
+  - 'Rwarr! I''m a monster. :)'
+  classname: Note
+- args:
+  - [550, 475]
+  - 'WARNING: Overuse of the short-range temporal restoration device may lead to adverse effects. But hey, it lets you go back in time and try that important task again. (Use this door to erase all progress and restart the game.)'
+  classname: Note
+  name: note_restart
+- args:
+  - [550, 550]
+  - hangar
+  - [1650, 2450]
+  - 90
+  classname: RestartGameDoor
+- args:
+  - [650, 300]
+  - Go through this door to replay the final battle!
+  classname: Note
+  name: note_continue
+- args:
+  - [225, 300]
+  classname: FloorSwitch
+  name: cockpit_switch
+- args:
+  - [70, 300]
+  - end
+  - [100, 100]
+  - 0
+  classname: RocketConsole
+  name: rocket_console
+- args:
+  - [225, 250]
+  - [225, 350]
+  - cockpit_switch
+  classname: Hatch
+  name: cockpit_hatch
+- args:
+  - [300, 225]
+  classname: FloorSwitch
+  name: room_1_switch
+- args:
+  - [250, 225]
+  - [350, 225]
+  - room_1_switch
+  classname: Hatch
+  name: room_1_hatch
+- args:
+  - [550, 225]
+  classname: FloorSwitch
+  name: room_2_switch
+- args:
+  - [500, 225]
+  - [600, 225]
+  - room_2_switch
+  classname: Hatch
+  name: room_2_hatch
+- args:
+  - [300, 375]
+  classname: FloorSwitch
+  name: room_3_switch
+- args:
+  - [250, 375]
+  - [350, 375]
+  - room_3_switch
+  classname: Hatch
+  name: room_3_hatch
+- args:
+  - [550, 375]
+  classname: FloorSwitch
+  name: room_4_switch
+- args:
+  - [500, 375]
+  - [600, 375]
+  - room_4_switch
+  classname: Hatch
+  name: room_4_hatch
+- args:
+  - [550, 125]
+  - Alien vs Werewolf III -- now showing!
+  classname: Note
+  name: keyhints
+- args:
+  - [129, 299]
+  - Fire up the engines and head home!
+  classname: Note
+  name: blast_off
+lines: []
+music: POL-off-road-short.ogg
+music_volume: 0.3
+polygons:
+  1:
+  - [50, 300]
+  - [50, 350]
+  - [100, 400]
+  - [150, 400]
+  - [200, 350]
+  - [250, 350]
+  - [250, 400]
+  - [200, 450]
+  - [200, 500]
+  - [250, 550]
+  - [350, 550]
+  - [400, 500]
+  - [400, 450]
+  - [350, 400]
+  - [350, 350]
+  - [500, 350]
+  - [500, 400]
+  - [450, 450]
+  - [450, 500]
+  - [500, 550]
+  - [600, 550]
+  - [650, 500]
+  - [650, 450]
+  - [600, 400]
+  - [600, 350]
+  - [700, 350]
+  - [725, 325]
+  - [725, 275]
+  - [700, 250]
+  - [650, 250]
+  - [600, 250]
+  - [600, 200]
+  - [650, 150]
+  - [650, 100]
+  - [600, 50]
+  - [500, 50]
+  - [450, 100]
+  - [450, 150]
+  - [500, 200]
+  - [500, 250]
+  - [400, 250]
+  - [350, 250]
+  - [350, 200]
+  - [400, 150]
+  - [400, 100]
+  - [350, 50]
+  - [250, 50]
+  - [200, 100]
+  - [200, 150]
+  - [250, 200]
+  - [250, 250]
+  - [200, 250]
+  - [150, 200]
+  - [100, 200]
+  - [50, 250]
+  - [50, 300]
+size: [800, 600]

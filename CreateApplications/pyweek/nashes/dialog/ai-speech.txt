@@ -1,0 +1,100 @@
+# Speech for the AI
+
+
+mode-none-patrolling {
+    Got some patrolling to do
+    Time to go to work
+    This room isn't going to patrol itself
+    Let's patrol this joint
+}
+
+mode-patrolling-going-to-rest {
+    I'm feeling a bit tired
+    Time for a rest I think
+}
+
+mode-patrolling-investigating {
+    I'll respond to that
+    What's going on over there?
+    What was that?
+    I'd better do something
+    Responding!
+    I'm on it!
+    Got it covered!
+}
+
+mode-investigating-searching {
+    Hmm, nothing here. I'll look around.
+    Seems suspicious.
+    I think I heard something over there!
+    What's up with that?
+    That wasn't nothing!
+    Must have been something
+}
+
+mode-searching-none {
+    Oh well. Must have been nothing.
+    Hmm, nothing here now
+    I can't find anything
+    Doesn't make sense
+    I'm chasing ghosts and spirits
+}
+
+mode-resting-investigating {
+    It always happens when I'm asleep!
+}
+
+mode-patrolling-fixing {
+    That's weird. This doesn't seem to be working.
+    Hmm. Somebody turned this thing off.
+    Why isn't this on?
+    I'd better go fix this.
+    That should be on!
+    That doesn't look right to me
+    Is that controller broken again?
+}
+
+mode-fixing-chasing {
+    I've found him
+    There's the culprit
+    It was him all along
+    He's going to pay for that
+}
+
+mode-investigating-chasing {
+    Hold on - there he is!
+    Wait, I think that's him!
+    Why I never!
+    Get 'im!
+    Don't lose him now!
+    You wont get away from me!
+}
+
+mode-switching-replacer {
+    I'll replace you
+    I guess I'll go and relieve him
+}
+
+mode-opening-door {
+    Keycard!
+    Swipe!
+    Open sesame!
+    Let me pass!
+}
+
+mode-arrived-to-fix-already-fixed {
+    Oh, someone else must have fixed it
+    It is working after all
+    Hmm, gremlins in the system?
+    It's already fixed
+    Nothin for me to do here
+}
+
+mode-arrived-to-fix-fixed-it {
+    That's better
+    Done
+    Got it working again
+    Hmm, it's as simple as that
+    All secure again now
+    Now don't you turn off again!
+}

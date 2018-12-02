@@ -1,0 +1,15 @@
+1,North Atlantic,1.txt,243,220,Easy,400/50/50/50,2 3
+2,Mediterranean,2.txt,315,213,Easy,450/100,4
+3,Caribbean,3.txt,188,150,Easy,500/100,5
+4,Red Sea,4.txt,372,163,Medium,800/200/5,7 8
+5,Hudson Bay,5.txt,160,259,Medium,860,6
+6,Bering,6.txt,28,299,Hard,1500,9 10
+7,Black Sea,7.txt,368,223,Medium,900,13 14 15
+8,Arabian Sea,8.txt,413,144,Medium,1000,11 12
+9,South Pacific,9.txt,64,89,Hard!,2200,
+10,South Atlantic,10.txt,267,59,Very Hard!,2600,
+11,Indian,11.txt,444,101,Hard,1600,
+12,Andaman,12.txt,477,143,Hard,1750,
+13,Arctic,13.txt,302,307,Medium,1450,
+14,Sea of Okhotsk,14.txt,553,253,Hard,1500,
+15,Sea of Japan,15.txt,521,206,Hard,1550,

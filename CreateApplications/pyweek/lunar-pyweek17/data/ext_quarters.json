@@ -1,0 +1,18 @@
+{
+    "info": {
+        "3,1": { "text": [ "From: Holden, Linda M.\nTo: Lunar Mining Co\nSubject: Re: Substitute for Dr Terkov\n\nI'm disappointed that we need to keep Terkov for another 3 months. It's not just that he's not adequate for the post, I can prove he's been smuggling illegal substances into the base.\n\nI request immediate intervention.",
+        "From: Lunar Minig Co\nTo: Holden, Linda M.\nSubject: Re[2]: Substitute for Dr Terkov\n\nIntervention denied.\n\nThere's an ongoing operation and we can't stop it now. Terkov is just stupid. I'm sorry Linda, but you'll have to deal with him yourself." ], "score": 1 }
+    },
+    "action": {
+        "1,4": { "id": 1, "type": "door", "valid": [1,5], "target": [[2,4], [3,4]] },
+        "0,3": { "id": 2, "type": "door", "valid": [1,3], "target": [[2,4], [3,4]] },
+        "8,4": { "id": 3, "type": "door", "valid": [8,5], "target": [[9,4], [10,4]] },
+        "11,3": { "id": 4, "type": "door", "valid": [10,3], "target": [[9,4], [10,4]] }
+    },
+    "exit": {
+        "0,5": { "target": "lab.json", "destination": [11,2], "face": -90 },
+        "0,6": { "target": "lab.json", "destination": [11,3], "face": -90 },
+        "11,5": { "target": "quarters2.json", "destination": [0,5], "face": 90 },
+        "11,6": { "target": "quarters2.json", "destination": [0,6], "face": 90 }
+    }
+}

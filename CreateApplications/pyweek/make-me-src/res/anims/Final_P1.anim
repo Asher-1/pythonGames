@@ -1,0 +1,451 @@
+anim BigWheelIdle
+duration 1.000000
+anim_bbox -23 2 55 208
+image Final_P1-01.png
+image Final_P1-02.png
+image Final_P1-03.png
+image Final_P1-04.png
+image Final_P1-05.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0 0 0 0 0 0
+image_ty 0 0 0 0 0 0 0
+image_vis 1 1 1 1 1 1 1
+anim BigWheelMove
+duration 1.000000
+anim_bbox -23 2 55 208
+image Final_P1-01.png
+image Final_P1-02.png
+image Final_P1-03.png
+image Final_P1-04.png
+image Final_P1-05.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0 0 0 0
+image_ty 0 0 0 0 0
+image_vis 1 0 1 1 1
+frame 0.500820
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my -1
+image_tx 0 0 0 0 0
+image_ty 0 0 0 0 0
+image_vis 1 1 0 1 1
+anim FlipperIdle
+duration 1.000000
+anim_bbox -23 2 31 140
+image Final_P1-06.png
+image Final_P1-09.png
+frame 0.000000
+tx 0
+ty -70
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0 0 0
+image_ty 0 0 0 0
+image_vis 1 1 1 1
+anim FlipperAir
+duration 1.000000
+anim_bbox -23 2 31 140
+image Final_P1-06.png
+image Final_P1-07.png
+image Final_P1-08.png
+image Final_P1-09.png
+frame 0.000000
+tx 0
+ty -70
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0 0 0 0
+image_ty 0 0 0 0 0
+image_vis 1 0 0 1 1
+frame 0.237705
+tx 0
+ty -70
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0 0 0 0
+image_ty 0 0 0 0 0
+image_vis 0 1 0 1 1
+frame 0.500000
+tx 0
+ty -70
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0 0 0 0
+image_ty 0 0 0 0 0
+image_vis 0 0 1 1 1
+frame 0.738525
+tx 0
+ty -70
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0 0 0 0
+image_ty 0 0 0 0 0
+image_vis 0 1 0 1 1
+anim FlipperMove
+duration 0.200000
+anim_bbox -23 2 31 140
+image Final_P1-06.png
+image Final_P1-07.png
+image Final_P1-08.png
+image Final_P1-09.png
+frame 0.000000
+tx 0
+ty -70
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0 0 0 0
+image_ty 0 0 0 0 0
+image_vis 1 0 0 1 1
+frame 0.237705
+tx 0
+ty -70
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0 0 0 0
+image_ty 0 0 0 0 0
+image_vis 0 1 0 1 1
+frame 0.500000
+tx 0
+ty -70
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0 0 0 0
+image_ty 0 0 0 0 0
+image_vis 0 0 1 1 1
+frame 0.738525
+tx 0
+ty -70
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0 0 0 0
+image_ty 0 0 0 0 0
+image_vis 0 1 0 1 1
+anim TorsoIdle
+duration 1.000000
+anim_bbox 69 40 69 40
+image Final_P1-10.png
+image Final_P1-12.png
+image Final_P1-14.png
+image Final_P1-19.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0 0 0
+image_ty 0 0 0 0
+image_vis 1 1 1 1
+anim BalloonIdle
+duration 1.000000
+anim_bbox -23 2 19 97
+image Final_P1-11.png
+image Final_P1-12.png
+image Final_P1-14.png
+image Final_P1-19.png
+frame 0.000000
+tx -2
+ty -114
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0 0 0
+image_ty 0 0 0 0
+image_vis 1 1 1 1
+anim SpannerIdle
+duration 1.000000
+anim_bbox 69 40 69 40
+image Final_P1-10.png
+image Final_P1-13.png
+image Final_P1-14.png
+image Final_P1-19.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0 0 0
+image_ty 0 0 0 0
+image_vis 1 1 1 1
+anim CrabIdle
+duration 1.000000
+anim_bbox -33 2 36 60
+image Final_P1-15.png
+image Final_P1-19.png
+frame 0.000000
+tx 0
+ty -151
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0 0 0 0 0
+image_ty 0 0 0 0 0 0
+image_vis 1 1 1 1 1 1
+anim CrabMove
+duration 0.250000
+anim_bbox -33 2 36 60
+image Final_P1-15.png
+image Final_P1-16.png
+image Final_P1-17.png
+image Final_P1-18.png
+image Final_P1-19.png
+frame 0.000000
+tx 0
+ty -151
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0 0 0 0 0
+image_ty 0 0 0 0 0 0
+image_vis 1 0 0 0 1 1
+frame 0.250000
+tx 0
+ty -151
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0 0 0 0 0
+image_ty 0 0 0 0 0 0
+image_vis 0 1 0 0 1 1
+frame 0.450000
+tx 0
+ty -151
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0 0 0 0 0
+image_ty 0 0 0 0 0 0
+image_vis 0 1 0 0 1 1
+frame 0.500000
+tx 0
+ty -151
+tr 0.000000
+mx -36
+my 0
+image_tx 0 0 0 0 0 0
+image_ty 0 0 0 0 0 0
+image_vis 0 0 1 0 1 1
+frame 0.750000
+tx 0
+ty -151
+tr 0.000000
+mx -36
+my 0
+image_tx 0 0 0 0 0 0
+image_ty 0 0 0 0 0 0
+image_vis 0 0 0 1 1 1
+anim HeadIdle
+duration 1.000000
+anim_bbox -22 2 29 34
+image Final_P1-20.png
+image Final_P1-21.png
+frame 0.000000
+tx 0
+ty -174
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0
+image_ty 0 0
+image_vis 1 1
+anim HeadMove
+duration 0.600000
+anim_bbox -22 2 29 34
+image Final_P1-20.png
+image Final_P1-21.png
+frame 0.000000
+tx 0
+ty -174
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0
+image_ty 0 0
+image_vis 1 1
+frame 0.687302
+tx 0
+ty -174
+tr -9.560000
+mx -17
+my 0
+image_tx 0 0
+image_ty 0 0
+image_vis 1 1
+anim GogglesIdle
+duration 1.000000
+anim_bbox 69 40 69 40
+image Final_P1-22.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anim SnorkelIdle
+duration 1.000000
+anim_bbox 69 40 69 40
+image Final_P1-24.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anim SnorkelIdleRight
+duration 1.000000
+anim_bbox 69 40 69 40
+image Final_P1-25.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anim NinjaIdle
+duration 1.000000
+anim_bbox 69 40 69 40
+image Final_P1-23.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anim LightIdle
+duration 1.000000
+anim_bbox 69 40 69 40
+image Final_P1-26.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anim TopHatIdle
+duration 1.000000
+anim_bbox 69 40 69 40
+image Final_P1-28.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anim JayneHatIdle
+duration 1.000000
+anim_bbox 69 40 69 40
+image Final_P1-29.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anim SpringMove
+duration 1.000000
+anim_bbox -25 2 25 104
+image Final_P1-04.png
+image Final_P1-05.png
+frame 0.000000
+tx -3
+ty -105
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0 0
+image_ty 0 0 0
+image_vis 1 1 1
+anim SpringIdle
+duration 1.000000
+anim_bbox -25 2 25 104
+image Final_P1-04.png
+image Final_P1-05.png
+frame 0.000000
+tx -3
+ty -105
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0
+image_ty 0 0
+image_vis 1 1
+frame 0.500000
+tx -4
+ty -111
+tr 0.000000
+mx 0
+my 0
+image_tx 0 0
+image_ty 3 1
+image_vis 1 1
+anchor 30 -159 Final_P1-25.png
+anchor 33 -169 Final_P1-23.png
+anchor 30 -60 Final_P1-09.png
+anchor 14 -100 Final_P1-04.png
+anchor 41 5 Final_P1-01.png
+anchor 36 -193 Final_P1-26.png
+anchor 21 -103 Final_P1-05.png
+anchor 30 -8 Final_P1-02.png
+anchor 35 -169 Final_P1-20.png
+anchor 36 -104 Final_P1-11.png
+anchor 33 -176 Final_P1-22.png
+anchor 24 -181 Final_P1-21.png
+anchor 44 -192 Final_P1-28.png
+anchor 26 -152 Final_P1-14.png
+anchor 64 -109 Final_P1-13.png
+anchor 35 -161 Final_P1-29.png
+anchor -30 -73 Final_P1-06.png
+anchor 20 -18 Final_P1-03.png
+anchor 28 -103 Final_P1-10.png
+anchor -25 -73 Final_P1-08.png
+anchor 43 -109 Final_P1-12.png
+anchor 10 -165 Final_P1-19.png
+anchor -24 -74 Final_P1-07.png
+anchor 66 -146 Final_P1-16.png
+anchor 45 -158 Final_P1-24.png
+anchor 47 -142 Final_P1-15.png
+anchor 39 -141 Final_P1-18.png
+anchor 40 -145 Final_P1-17.png

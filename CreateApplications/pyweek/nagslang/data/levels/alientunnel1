@@ -1,0 +1,117 @@
+base_tile: tiles/alien_tile.png
+enemies:
+- args:
+  - [600, 300]
+  - [900, 300]
+  classname: PatrollingAlien
+  name: alien_1_1
+- args:
+  - [900, 300]
+  - [600, 300]
+  classname: PatrollingAlien
+  name: alien_1_2
+- args:
+  - [500, 300]
+  - [1300, 500]
+  classname: PatrollingAlien
+  name: alien_1_3
+- args:
+  - [300, 500]
+  - [500, 300]
+  classname: PatrollingAlien
+  name: alien_1_4
+- args:
+  - [300, 600]
+  - [300, 900]
+  classname: PatrollingAlien
+  name: alien_1_5
+- args:
+  - [300, 900]
+  - [300, 600]
+  classname: PatrollingAlien
+  name: alien_1_6
+- args:
+  - [300, 800]
+  - [500, 1100]
+  classname: PatrollingAlien
+  name: alien_1_7
+- args:
+  - [500, 1100]
+  - [300, 800]
+  classname: PatrollingAlien
+  name: alien_1_8
+- args:
+  - [600, 1100]
+  - [900, 1100]
+  classname: PatrollingAlien
+  name: alien_1_9
+- args:
+  - [900, 1100]
+  - [600, 1100]
+  classname: PatrollingAlien
+  name: alien_1_10
+game_objects:
+- args:
+  - [1050, 1050]
+  - hangar
+  - [255, 2495]
+  - 45
+  classname: Door
+  name: from_base
+- args:
+  - [1050, 350]
+  - alientunnel2
+  - [375, 1025]
+  - 135
+  classname: Door
+  name: 1to2
+- args:
+  - [1100, 1000]
+  - - [1200, 900]
+    - [1200, 800]
+    - [400, 800]
+    - [400, 900]
+    - [500, 1000]
+    - [1100, 1000]
+  classname: AcidFloor
+  name: acid_1
+- args:
+  - [1200, 600]
+  - - [1200, 500]
+    - [1100, 400]
+    - [500, 400]
+    - [400, 500]
+    - [400, 600]
+    - [1200, 600]
+  classname: AcidFloor
+  name: acid_2
+- args:
+  - [1200, 600]
+  - - [1200, 600]
+    - [1100, 600]
+    - [1100, 800]
+    - [1200, 800]
+  classname: AcidFloor
+  name: acid_3
+- args:
+  - [900, 700]
+  - keycard_yellow
+  classname: collectable.KeyCard
+  name: keycard_yellow
+lines: []
+music: POL-future-war-short.ogg
+polygons:
+  1:
+  - [500, 1200]
+  - [900, 1200]
+  - [1200, 900]
+  - [1200, 500]
+  - [900, 200]
+  - [500, 200]
+  - [200, 500]
+  - [200, 900]
+  - [500, 1200]
+  2: []
+  3: []
+  6: []
+size: [1400, 1400]

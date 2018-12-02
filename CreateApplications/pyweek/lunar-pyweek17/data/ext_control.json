@@ -1,0 +1,28 @@
+{
+    "info": {
+        "4,5": { "text": [
+        "SECURITY LOG: Sep, 1 @14:00\nLogin: D. Taylor\n\nMonthly audits and access code reset. ACK Holden.",
+        "SECURITY LOG: Sep, 2 @08:15\nLogin: D. Taylor\n\nCampbell has lost his access code again. I generated a new one and warned him next time there will be a disciplinary sanction.",
+        "SECURITY LOG: Sep, 4 @05:30\nLogin: L. Holden\n\nThere was a fight in the quarters. Campbell, Rowley and O'Neill were involved. Dr O'Neill reported it was related to a medical condition and he accepted the responsibility for the incident.",
+        "SECURITY LOG: Sep, 5 @03:05\nLogin: J. Campbell\n\nRaised security levels according to Company Policy 125-A3. I was sleeping at the infirmary when all started. O'Neill saved me!",
+        "SECURITY LOG: Sep, 5 @03:17\nLogin: J. Campbell\n\nI'm locking the dock. If the bastard gets me, it won't be easy to get out of the base."
+        ], "score": 1, "flag": "lost" },
+        "8,5": { "text": "The screen is locked. A password is required.", "score": 1, "alt": "code", "alt_text": [
+        "Lunar Login: campbell\nPassword: ***\n\n",
+        "Access denied." ], "alt_snd": "denied" },
+        "3,3": { "text": [
+        "There's an auto-saved draft.",
+        "From: Taylor, Daniel\nTo: Lunar Mining Co\nSubject: Connectivity problems\n\nWe are experiencing problems to connect to the service androids. Looks like there's some sort of background noise. Do you know anything about this?\n\nThanks in advance." ], "score": 1 },
+        "7,3": { "text": "The main communications terminal is out of order.\n\nLooks like it has been smashed with a blunt object.", "score": 1 },
+        "7,1": { "text": "The switch is blocked by the security system and won't open the door.", "snd": "error" }
+    },
+    "action": {
+        "4,8": { "id": 1, "type": "door", "valid": [5,8], "target": [[5,7], [6,7]] }
+    },
+    "exit": {
+        "5,11": { "target": "lab.json", "destination": [5,0], "face": 0 },
+        "6,11": { "target": "lab.json", "destination": [6,0], "face": 0 },
+        "5,0": { "target": "biometry.json", "destination": [2,5], "face": 180 },
+        "6,0": { "target": "biometry.json", "destination": [3,5], "face": 180 }
+    }
+}

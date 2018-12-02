@@ -1,0 +1,168 @@
+anim HeadIdle
+duration 1.000000
+anim_bbox 106 194 106 194
+image robotprint-flipbook_head1.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anim JayneHatIdle
+duration 1.000000
+anim_bbox 106 194 106 194
+image robotprint-flipbook_head2.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anim TopHatIdle
+duration 1.000000
+anim_bbox 106 194 106 194
+image robotprint-flipbook_head3.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anim LightIdle
+duration 1.000000
+anim_bbox 106 194 106 194
+image robotprint-flipbook_head4.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anim SnorkelIdle
+duration 1.000000
+anim_bbox 106 194 106 194
+image robotprint-flipbook_head5.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anim NinjaIdle
+duration 1.000000
+anim_bbox 106 194 106 194
+image robotprint-flipbook_head6.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anim CrabIdle
+duration 1.000000
+anim_bbox 106 194 106 194
+image robotprint-flipbook_body1.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anim TorsoIdle
+duration 1.000000
+anim_bbox 106 194 106 194
+image robotprint-flipbook_body2.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anim SpannerIdle
+duration 1.000000
+anim_bbox 106 194 106 194
+image robotprint-flipbook_body3.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anim BalloonIdle
+duration 1.000000
+anim_bbox 106 194 106 194
+image robotprint-flipbook_body4.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anim BigWheelIdle
+duration 1.000000
+anim_bbox 106 194 106 194
+image robotprint-flipbook_legs1.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anim FlipperIdle
+duration 1.000000
+anim_bbox 106 194 106 194
+image robotprint-flipbook_legs2.png
+frame 0.000000
+tx 0
+ty 0
+tr 0.000000
+mx 0
+my 0
+image_tx 0
+image_ty 0
+image_vis 1
+anchor 64 -18 robotprint-flipbook_body1.png
+anchor 56 177 robotprint-flipbook_legs1.png
+anchor 51 -55 robotprint-flipbook_head3.png
+anchor 46 -55 robotprint-flipbook_head6.png
+anchor 88 39 robotprint-flipbook_body3.png
+anchor 45 38 robotprint-flipbook_body4.png
+anchor 33 86 robotprint-flipbook_legs2.png
+anchor 39 -58 robotprint-flipbook_head1.png
+anchor 51 38 robotprint-flipbook_body2.png
+anchor 57 -50 robotprint-flipbook_head5.png
+anchor 48 -48 robotprint-flipbook_head2.png
+anchor 49 -57 robotprint-flipbook_head4.png

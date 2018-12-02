@@ -1,0 +1,130 @@
+Sources of music files
+======================
+
+POL-cyber-factory-short.ogg
+---------------------------
+
+URL:
+    http://www.backgroundmusicloops.net/free-music-loops/POL-cyber-factory-short.zip
+Source:
+    http://www.playonloop.com/2010-music-loops/cyber-factory/
+License:
+    http://creativecommons.org/licenses/by/3.0/
+Credit:
+    This royalty-free music loop is filed under the 8 Bit > Videogame
+    category, tagged as Action, Groovy and is ready for instant
+    download!  You can use this background music loop in any kind of
+    production such as Video, Game, Flash, Website, Slideshow,
+    Presentation, Mobile App, Radio, TV, and much more!
+Notes:
+    Ogg generated using 'oggenc POL-cyber-factory-short.wav'
+
+
+POL-against-the-system-short.ogg
+--------------------------------
+
+URL:
+    http://www.backgroundmusicloops.net/free-music-loops/POL-against-the-system-short.zip
+Source:
+    http://www.playonloop.com/2011-music-loops/against-the-system/
+License:
+    http://creativecommons.org/licenses/by/3.0/
+Credit:
+    This royalty-free music loop is filed under the Heavy Rock > Rock
+    category, tagged as Action, Aggressive, Evolving, Powerful and is
+    ready for instant download! You can use this background music loop
+    in any kind of production such as Video, Game, Flash, Website,
+    Slideshow, Presentation, Mobile App, Radio, TV, and much more!
+Notes:
+    Ogg generated using 'oggenc -q -1 POL-against-the-system-short.wav'
+
+
+POL-tekdrome-short.ogg
+----------------------
+
+URL:
+    http://www.backgroundmusicloops.net/free-music-loops/POL-tekdrome-short.zip
+Source:
+    http://www.playonloop.com/2012-music-loops/tekdrome/
+License:
+    http://creativecommons.org/licenses/by/3.0/
+Credit:
+    This royalty-free music loop is filed under the Dance > Electronic
+    category, tagged as Action, Driving, Hi-tech, Powerful and is
+    ready for instant download! You can use this background music loop
+    in any kind of production such as Video, Game, Flash, Website,
+    Slideshow, Presentation, Mobile App, Radio, TV, and much more!
+Notes:
+    Ogg generated using 'oggenc -q -1 POL-tekdrome-short.wav'
+
+
+POL-future-war-short.ogg
+------------------------
+
+URL:
+    http://www.backgroundmusicloops.net/free-music-loops/POL-future-war-short.zip
+Source:
+    http://www.playonloop.com/2010-music-loops/future-war/
+License:
+    http://creativecommons.org/licenses/by/3.0/
+Credit:
+    This royalty-free music loop is filed under the Electronic >
+    Psychedelic category, tagged as Action, Dark and is ready for
+    instant download! You can use this background music loop in any
+    kind of production such as Video, Game, Flash, Website, Slideshow,
+    Presentation, Mobile App, Radio, TV, and much more!
+Notes:
+    Ogg generated using 'oggenc -q -1 POL-future-war-short.wav'
+
+
+POL-tunnels-short.ogg
+---------------------
+
+URL:
+    http://www.backgroundmusicloops.net/free-music-loops/POL-tunnels-short.zip
+Source:
+    http://www.playonloop.com/2010-music-loops/tunnels/
+License:
+    http://creativecommons.org/licenses/by/3.0/
+Credit:
+    This royalty-free music loop is filed under the 8 Bit > Videogame
+    category, tagged as Action, Driving and is ready for instant
+    download! You can use this background music loop in any kind of
+    production such as Video, Game, Flash, Website, Slideshow,
+    Presentation, Mobile App, Radio, TV, and much more!
+Notes:
+    Ogg generated using 'oggenc POL-tunnels-short.wav'
+
+
+POL-off-road-short.ogg
+---------------------
+
+URL:
+    http://www.backgroundmusicloops.net/free-music-loops/POL-off-road-short.zip
+Source:
+    http://www.playonloop.com/2010-music-loops/off-road/
+License:
+    http://creativecommons.org/licenses/by/3.0/
+Credit:
+    This royalty-free music loop is filed under the Lite Rock > Rock
+    category, tagged as Action, Aggressive, Driving and is ready for
+    instant download! You can use this background music loop in any
+    kind of production such as Video, Game, Flash, Website, Slideshow,
+    Presentation, Mobile App, Radio, TV, and much more!
+Notes:
+    Ogg generated using 'oggenc -q -1 POL-off-road-short.wav'
+
+
+moonlight-sonata.ogg
+--------------------
+
+URL:
+    http://ccmixter.org/content/snowflake/snowflake_-_Moonlight_Sonata.mp3
+Source:
+    http://ccmixter.org/files/snowflake/29654
+License:
+    http://creativecommons.org/licenses/by/3.0/
+Credit:
+    by Snowflake
+Notes:
+    Ogg generated using 'ffmpeg snowflake_-_Moonlight_Sonata.mp3 -acodec libvorbis -aq -1 moonlight-sonata.ogg'

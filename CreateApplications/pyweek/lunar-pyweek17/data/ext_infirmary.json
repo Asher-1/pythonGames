@@ -1,0 +1,26 @@
+{
+    "info": {
+        "4,1": { "text": "The infirmary bed has been used recently." },
+        "4,2": { "text": "The infirmary bed has been used recently." },
+
+        "7,1": { "text": "This is the regeneration pool of the base. It can be used to treat injuries and repair damaged tissues.\n\nIt includes a DNA database of all the employees.", "score": 1,
+        "alt": "sample", "alt_text": [
+        "Analyzing sample...\n",
+        "Match found, 100% accuracy: John Campbell\n\nThere is not enough material for regeneration."
+        ], "special": "dna" },
+        "8,2": { "text": [
+        "MEDICAL LOG: Aug, 29\n\nCampbell came to the infirmary complaining about headaches and sleep deprivation. I suspect he has been like this for weeks but he was afraid to ask for help.\n\nI gave him some pills and told Rowley to keep an eye on him in the next mission.\n",
+        "MEDICAL LOG: Sep, 3\n\nI've suspended Campbell. He's not in shape to keep going outside, he's putting himself and his team at risk. He didn't like it at all, I will recommend him to go back to Earth in next the shuttle.\n",
+        "MEDICAL LOG: Sep, 4\n\nRowley punched Campbell in the face. Nothing serious but I've asked the Base Manager to have Campbell in the infirmary for a couple of days.\n\nApparently he's been having nightmares and waking up screaming in the middle of the night. Sharing cabin with Rowley won't help to calm things down, so I'll have him here with the excuse of some tests.\n"
+        ], "score": 1, "flag": "fight" }
+    },
+    "action": {
+        "5,5": { "id": 1, "type": "door", "valid": [5,6], "target": [[6,5], [7,5]] }
+    },
+    "exit": {
+        "1,0": { "target": "dock_door.json", "destination": [4,10], "face": 180 },
+        "2,0": { "target": "dock_door.json", "destination": [5,10], "face": 180 },
+        "11,6": { "target": "lab.json", "destination": [0,2], "face": 90 },
+        "11,7": { "target": "lab.json", "destination": [0,3], "face": 90 }
+    }
+}
