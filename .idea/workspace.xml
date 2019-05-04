@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6936c0f1-cb53-4f48-8008-3f7dc44e73fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/components/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/components/bricks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/components/castle_flag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/components/checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/components/coin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/components/coin_box.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/components/collider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/components/enemies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/components/flagpole.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/components/flashing_coin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/components/info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/components/mario.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/components/powerups.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/components/score.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/game_sound.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/states/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/states/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/states/level1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/states/load_screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/states/main_menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/mario_level_1.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/mario_level_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/fonts/Fixedsys500c.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/fonts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/graphics/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/graphics/enemies.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/graphics/item_objects.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/graphics/level_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/graphics/mario_bros.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/graphics/smb_enemies_sheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/graphics/text_images.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/graphics/tile_set.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/graphics/title_screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/music/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/music/death.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/music/flagpole.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/music/game_over.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/music/invincible.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/music/main_theme.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/music/main_theme_sped_up.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/music/out_of_time.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/music/stage_clear.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/music/world_clear.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/sound/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/sound/big_jump.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/sound/brick_smash.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/sound/bump.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/sound/coin.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/sound/count_down.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/sound/fireball.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/sound/kick.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/sound/main_theme_sped_up.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/sound/one_up.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/sound/pipe.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/sound/powerup.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/sound/powerup_appears.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/sound/small_jump.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/resources/sound/stomp.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateApplications/Applications/mario_level_1.exe" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1913791531">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="327" />
+    <option name="y" value="55" />
+    <option name="width" value="1490" />
+    <option name="height" value="1255" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pythonGames" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonGames" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\develop\workstations\GitHub\pythonGames\CreateApplications\Applications" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6936c0f1-cb53-4f48-8008-3f7dc44e73fc" name="Default Changelist" comment="" />
+      <created>1556846263263</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556846263263</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1754856" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CreateApplications/Applications/Mario-Level-1/data/states/level1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
